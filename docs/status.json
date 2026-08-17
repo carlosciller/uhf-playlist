@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-08-17T15:35:08.785762+00:00",
+  "source": "https://www.tdtchannels.com/lists/tv.m3u8",
+  "epg": "https://www.tdtchannels.com/epg/TV.xml.gz",
+  "channels": 578,
+  "unique_channels": 435,
+  "self_hosted_logos": 421,
+  "uncached_logos": 14,
+  "logo_coverage_percent": 96.8,
+  "uncached_channel_ids": [
+    "1Muz Bielorrusia",
+    "Canal Telecaribe Colombia",
+    "De Laredu Lin TV",
+    "Infantil (Canal Extremadura)",
+    "Islas Canarias TV",
+    "La Mega Mundial USA",
+    "MiBit Almansa TV",
+    "On TV Portugal",
+    "Parlamento de La Rioja",
+    "Pat Bolivia",
+    "RTV Mogán",
+    "Semos asina (Canal Extremadura)",
+    "TV Aranda",
+    "Teledifusão de Macau"
+  ],
+  "logo_source_breakdown": {
+    "cache": 0,
+    "override": 0,
+    "iptv-org": 173,
+    "tv-logos": 12,
+    "source": 40,
+    "favicon": 196,
+    "failed": 14
+  },
+  "iptv_org_catalog_error": null,
+  "tdt_website_catalog_error": null
+}
