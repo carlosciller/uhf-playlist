@@ -1,0 +1,51 @@
+name: Actualizar playlist y logos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 5 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-playlist
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar catálogo público de logos
+        uses: actions/checkout@v4
+        with:
+          repository: tv-logo/tv-logos
+          path: .logo-source
+          fetch-depth: 1
+          sparse-checkout: countries
+
+      - name: Generar playlist y guardar logos
+        env:
+          PUBLIC_BASE_URL: https://chitichiti.github.io/uhf-playlist
+          TV_LOGOS_DIR: .logo-source/countries
+        run: python scripts/build_playlist.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "No hay cambios"
+          else
+            git commit -m "Actualizar playlist y logos"
+            git push
+          fi
