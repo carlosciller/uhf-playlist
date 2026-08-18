@@ -197,7 +197,7 @@ https://senadolive.akamaized.net/hls/live/2006589/punto7/master.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/senado-63be29e5.jpg" group-title="Eventuales" tvg-name="Senado",Senado
 https://senadolive.akamaized.net/hls/live/2006590/punto8/master.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canalsura-tv-f2c758ce.png" group-title="Andalucía" tvg-name="Canal Sur Andalucía",Canal Sur Andalucía
-https://d4oe4cnrgi9c9.cloudfront.net/master.m3u8
+https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/74cdbd1b401a7598ab8f3e9b5652c9909daa60dd4f6f96f28396a3f1cfd926f2.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canalsura-tv-f2c758ce.png" group-title="Andalucía" tvg-name="Canal Sur Andalucía",Canal Sur Andalucía
 https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8
 #EXTINF:-1 tvg-id="CanalSurA.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canalsura-tv-f2c758ce.png" group-title="Andalucía" tvg-name="Canal Sur 2 Accesible",Canal Sur 2 Accesible
@@ -382,7 +382,7 @@ https://stream2.parlamentodeandalucia.es/realizacion4/realizacion4/playlist.m3u8
 #EXTINF:-1 tvg-id="Canarias.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canarias-tv-cd66fdba.jpg" group-title="Canarias" tvg-name="TV Canaria (RTVC)",TV Canaria (RTVC)
 https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8
 #EXTINF:-1 tvg-id="Canarias.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canarias-tv-cd66fdba.jpg" group-title="Canarias" tvg-name="TV Canaria (RTVC)",TV Canaria (RTVC)
-https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
+https://rtvclive.flumotion.cloud/rtvc1live/smil:channel1PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="La1_CAN.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/la1-can-tv-a82d7c67.png" group-title="Canarias" tvg-name="La 1 Canarias",La 1 Canarias
 https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main_dvr.m3u8
 #EXTINF:-1 tvg-id="La2_CAN.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/la2-can-tv-d1e91d02.png" group-title="Canarias" tvg-name="La 2 Canarias",La 2 Canarias
@@ -426,9 +426,9 @@ https://limited12.todostreaming.es/live/ptvcantabria-livestream.m3u8
 https://eu1.servers10.com:8081/8034/index.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tevecan-9-bfb7ede0.png" group-title="Cantabria" tvg-name="Tevecan 9",Tevecan 9
 https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8
-#EXTINF:-1 tvg-id="CMM.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/cmm-tv-845276a3.png" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Media",Castilla-La Mancha Media
+#EXTINF:-1 tvg-id="CMM.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/cmm-tv-845276a3.png" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Media (CMM)",Castilla-La Mancha Media (CMM)
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/a.m3u8
-#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/castilla-la-mancha-radio-e7702d77.png" group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Radio",Castilla-La Mancha Radio
+#EXTINF:-1 group-title="Castilla-La Mancha" tvg-name="Castilla-La Mancha Radio (CMM)",Castilla-La Mancha Radio (CMM)
 https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_fmx3e3sd/protocol/https/format/applehttp/a.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tv-hellin-e5f668de.png" group-title="Castilla-La Mancha" tvg-name="TV Hellín",TV Hellín
 https://5940924978228.streamlock.net/directohellin/directohellin/playlist.m3u8
@@ -586,8 +586,6 @@ https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
 https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8?DVR
-#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/mar-tv-87ffe8e2.png" group-title="Cataluña" tvg-name="Mar TV",Mar TV
-https://rfe-ingest.akamaized.net/hls/live/2033043/tvmc05/master.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/teleganes-1c68f22c.png" group-title="C. de Madrid" tvg-name="Teleganés",Teleganés
 https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
 #EXTINF:-1 tvg-id="Distrito.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/distrito-tv-db2df2a8.png" group-title="C. de Madrid" tvg-name="Distrito TV",Distrito TV
@@ -634,8 +632,8 @@ https://elche7tv.gestec-video.com/hls/canal2.m3u8
 https://streaming007.gestec-video.com/hls/artequatreTVA.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/12tv-alicante-082beb69.jpg" group-title="C. Valenciana" tvg-name="12TV Alicante",12TV Alicante
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16126&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=12tv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=mirametv_live
-#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/burriana-tv-bd6e97bc.png" group-title="C. Valenciana" tvg-name="Burriana TV",Burriana TV
-https://stream.burrianateve.com/hls/abr_btv/index.m3u8
+#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/burriana-teve-c85e1947.png" group-title="C. Valenciana" tvg-name="Burriana TeVe",Burriana TeVe
+https://stream.burrianateve.com:8443/hls/abr_burrianateve/index.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tv-4-la-vall-19c9673f.png" group-title="C. Valenciana" tvg-name="TV 4 La Vall",TV 4 La Vall
 https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/canal-56-cc49a681.png" group-title="C. Valenciana" tvg-name="Canal 56",Canal 56
@@ -792,7 +790,7 @@ https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8
 https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tv-canaria-net-c351286f.jpg" group-title="Int. Europa" tvg-name="TV Canaria Net",TV Canaria Net
 https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
-#EXTINF:-1 group-title="Int. Europa" tvg-name="Islas Canarias TV",Islas Canarias TV
+#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/islas-canarias-tv-d7897ec7.png" group-title="Int. Europa" tvg-name="Islas Canarias TV",Islas Canarias TV
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=17089&live=1
 #EXTINF:-1 tvg-id="ATVHD.TV" tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/atvhd-tv-a01ddf60.png" group-title="Int. Europa" tvg-name="ATV Andorra",ATV Andorra
 https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8
@@ -856,10 +854,6 @@ https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 https://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/current-time-tv-57d390c5.png" group-title="Int. Europa" tvg-name="Current Time TV",Current Time TV
 https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tve-int-america-84aed961.png" group-title="Int. América" tvg-name="TVE Int. América",TVE Int. América GEO
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_ame_main_dvr_1080.m3u8
-#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/tve-int-america-84aed961.png" group-title="Int. América" tvg-name="TVE Int. América",TVE Int. América GEO
-https://rtvelivestream.rtve.es/rtvesec/int/tvei_ame_main_dvr.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/fox-live-now-usa-f3e505b8.png" group-title="Int. América" tvg-name="FOX Live Now USA",FOX Live Now USA EN
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/cbs-news-usa-6ac53f22.png" group-title="Int. América" tvg-name="CBS News USA",CBS News USA EN
@@ -1082,6 +1076,8 @@ https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Musicales" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile SD
 https://backend.energeek.cl/webtv/egradio/mobile/index.m3u8?token=TDTCh4nnelsES
+#EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/conexion-berazategui-argentina-cae527c5.png" group-title="Musicales" tvg-name="Conexión Berazategui Argentina",Conexión Berazategui Argentina
+https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/radio-italia-tv-91395941.png" group-title="Musicales" tvg-name="Radio Italia TV",Radio Italia TV IT
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-logo="https://chitichiti.github.io/uhf-playlist/logos/rtl-102-5-italia-91c2c48f.png" group-title="Musicales" tvg-name="RTL 102.5 Italia",RTL 102.5 Italia IT
