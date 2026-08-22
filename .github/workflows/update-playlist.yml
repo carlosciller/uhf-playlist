@@ -1,4 +1,4 @@
-name: Actualizar playlist y logos
+name: Update playlist and logos
 
 on:
   workflow_dispatch:
@@ -16,15 +16,15 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Descargar repositorio
+      - name: Check out repository
         uses: actions/checkout@v5
 
-      - name: Configurar Python
+      - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Descargar catálogo público de logos
+      - name: Download public logo catalogue
         uses: actions/checkout@v5
         with:
           repository: tv-logo/tv-logos
@@ -32,20 +32,20 @@ jobs:
           fetch-depth: 1
           sparse-checkout: countries
 
-      - name: Generar playlist y guardar logos
+      - name: Build playlist and cache logos
         env:
-          PUBLIC_BASE_URL: https://chitichiti.github.io/uhf-playlist
+          PUBLIC_BASE_URL: https://carlosciller.github.io/uhf-playlist
           TV_LOGOS_DIR: .logo-source/countries
         run: python scripts/build_playlist.py
 
-      - name: Publicar cambios
+      - name: Publish changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs
           if git diff --cached --quiet; then
-            echo "No hay cambios"
+            echo "No changes"
           else
-            git commit -m "Actualizar playlist y logos"
+            git commit -m "Update playlist and logos"
             git push
           fi

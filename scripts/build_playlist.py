@@ -36,7 +36,7 @@ TDT_JSON_URL = os.environ.get(
     "TDT_JSON_URL", "https://www.tdtchannels.com/lists/tv.json"
 )
 PUBLIC_BASE_URL = os.environ.get(
-    "PUBLIC_BASE_URL", "https://chitichiti.github.io/uhf-playlist"
+    "PUBLIC_BASE_URL", "https://carlosciller.github.io/uhf-playlist"
 ).rstrip("/")
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,7 +49,34 @@ TV_LOGOS_DIR = Path(os.environ["TV_LOGOS_DIR"]) if os.environ.get("TV_LOGOS_DIR"
 
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
 EXTINF_NAME_RE = re.compile(r",(.*)$")
+GROUP_TITLE_RE = re.compile(r'group-title="([^"]*)"')
 SAFE_EXTENSIONS = {"png", "jpg", "webp", "gif", "svg"}
+GROUP_TRANSLATIONS = {
+    "Andalucía": "Andalusia",
+    "C. Foral de Navarra": "Navarre",
+    "C. Valenciana": "Valencian Community",
+    "C. de Madrid": "Community of Madrid",
+    "Canarias": "Canary Islands",
+    "Castilla y León": "Castile and León",
+    "Cataluña": "Catalonia",
+    "Deportivos": "Sports",
+    "Deportivos Int.": "International Sports",
+    "Eventuales": "Event Channels",
+    "Generalistas": "General",
+    "Illes Balears": "Balearic Islands",
+    "Infantiles": "Kids",
+    "Informativos": "News",
+    "Int. América": "International · Americas",
+    "Int. Asia": "International · Asia",
+    "Int. Europa": "International · Europe",
+    "Int. Otros": "International · Other",
+    "Int. África": "International · Africa",
+    "Musicales": "Music",
+    "P. de Asturias": "Asturias",
+    "País Vasco": "Basque Country",
+    "R. de Murcia": "Region of Murcia",
+    "Religiosos": "Religious",
+}
 STYLE_TOKENS = {
     "4k",
     "black",
@@ -514,6 +541,14 @@ def remove_logo(line: str) -> str:
     return re.sub(r'\s+tvg-logo="[^"]*"', "", line, count=1)
 
 
+def translate_group_title(line: str) -> str:
+    match = GROUP_TITLE_RE.search(line)
+    if not match:
+        return line
+    translated = GROUP_TRANSLATIONS.get(match.group(1), match.group(1))
+    return f"{line[:match.start(1)]}{translated}{line[match.end(1):]}"
+
+
 def load_overrides() -> dict[str, str]:
     if not OVERRIDES_PATH.exists():
         return {}
@@ -612,6 +647,7 @@ def build() -> dict[str, object]:
                 line = replace_logo(line, public_url)
             else:
                 line = remove_logo(line)
+            line = translate_group_title(line)
         output_lines.append(line)
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
