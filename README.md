@@ -1,30 +1,30 @@
 # UHF Playlist
 
-Playlist M3U8 de TDTChannels adaptada para UHF.
+A UHF-friendly M3U8 playlist built from TDTChannels.
 
-## URL para UHF
+## Playlist URL
 
 ```text
-https://chitichiti.github.io/uhf-playlist/tv-uhf.m3u8
+https://carlosciller.github.io/uhf-playlist/tv-uhf.m3u8
 ```
 
-EPG oficial:
+## EPG
 
 ```text
 https://www.tdtchannels.com/epg/TV.xml.gz
 ```
 
-## Qué hace la automatización
+## How it works
 
-- Descarga diariamente la lista oficial de TDTChannels.
-- Normaliza la cabecera M3U8 para mejorar la compatibilidad con UHF.
-- Cruza automáticamente cada canal con los catálogos públicos de `iptv-org` y `tv-logo/tv-logos`.
-- Cuando no encuentra coincidencia, prueba la imagen de TDTChannels y el icono de la web oficial del canal.
-- Guarda una copia de cada logo resuelto en el propio repositorio.
-- Reemplaza los enlaces externos de logos por URLs estables de GitHub Pages.
-- Elimina del M3U los enlaces de imagen rotos cuando no existe una alternativa fiable.
-- Conserva todos los canales y emisiones alternativas de la fuente.
+- Downloads the official TDTChannels playlist every day.
+- Normalizes the M3U8 header for better UHF compatibility.
+- Matches channels against the public `iptv-org` and `tv-logo/tv-logos` catalogues.
+- Falls back to the TDTChannels image or the channel's official website icon when needed.
+- Stores resolved logos in this repository and serves them through GitHub Pages.
+- Removes broken logo references when no reliable replacement is available.
+- Translates UHF group names into English while preserving official channel names.
+- Keeps every channel and alternative stream provided by the source.
 
-Los logos ya descargados se mantienen para evitar que desaparezcan si Facebook, X u otro proveedor cambia sus direcciones. Los casos especiales pueden corregirse en `logo_overrides.json`, usando como clave el `tvg-id` o el nombre del canal y como valor una URL directa de imagen.
+Cached logos are retained so they do not disappear when Facebook, X, or another provider changes its URLs. Special cases can be corrected in `logo_overrides.json`: use the channel's `tvg-id` or name as the key and a direct image URL as the value.
 
-Fuente: [TDTChannels](https://www.tdtchannels.com/listas/).
+Source: [TDTChannels](https://www.tdtchannels.com/listas/).
