@@ -97,13 +97,13 @@ https://cdn-canalextremadura.watchity.net/fast2/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/pequeradio-tv-3e017a40.png" group-title="Kids" tvg-name="Pequeradio TV",Pequeradio TV
 https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8
 #EXTINF:-1 tvg-id="EnergeekRetro.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeekretro-tv-d3d23bee.png" group-title="Kids" tvg-name="EnerGeek Retro",EnerGeek Retro HD
-https://backend.energeek.cl/webtv/egretroweb/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egretroweb/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-id="EnergeekRetro.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeekretro-tv-d3d23bee.png" group-title="Kids" tvg-name="EnerGeek Retro",EnerGeek Retro SD
-https://backend.energeek.cl/webtv/egretro/mobile/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egretro/mobile/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-id="EnergeekFan.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeekfan-tv-0f35ab4b.png" group-title="Kids" tvg-name="EnerGeek Fan",EnerGeek Fan HD
-https://backend.energeek.cl/webtv/egfanweb/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-id="EnergeekFan.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeekfan-tv-0f35ab4b.png" group-title="Kids" tvg-name="EnerGeek Fan",EnerGeek Fan SD
-https://backend.energeek.cl/webtv/egfan/mobile/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/24-90c1903a.png" group-title="Event Channels" tvg-name="+24",+24
 https://ztnr.rtve.es/ztnr/6108696.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/24-90c1903a.png" group-title="Event Channels" tvg-name="+24",+24
@@ -1073,9 +1073,9 @@ https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/spektra-tv-espana-a2b20ef0.png" group-title="Music" tvg-name="Spektra TV España",Spektra TV España
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Music" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile HD
-https://backend.energeek.cl/webtv/egradioweb/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Music" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile SD
-https://backend.energeek.cl/webtv/egradio/mobile/index.m3u8?token=TDTCh4nnelsES
+https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/conexion-berazategui-argentina-cae527c5.png" group-title="Music" tvg-name="Conexión Berazategui Argentina",Conexión Berazategui Argentina
 https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-italia-tv-91395941.png" group-title="Music" tvg-name="Radio Italia TV",Radio Italia TV IT
