@@ -1144,7 +1144,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_i
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/venus-media-paraguay-28bf067c.jpg" group-title="Music" tvg-name="Venus Media Paraguay",Venus Media Paraguay
 https://copaco.desdeparaguay.net/venusmedia/venusmedia_alt/playlist.m3u8
-#EXTINF:-1 group-title="Music" tvg-name="La Mega Mundial USA",La Mega Mundial USA
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/la-mega-mundial-usa-012bedb3.png" group-title="Music" tvg-name="La Mega Mundial USA",La Mega Mundial USA
 https://server80.servistreaming.com:3477/stream/play.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/retro-plus-tv-chile-9e33606c.png" group-title="Music" tvg-name="Retro Plus TV Chile",Retro Plus TV Chile
 https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8
