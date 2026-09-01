@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-08-31T11:37:43.265690+00:00",
+  "generated_at": "2026-09-01T10:09:08.771281+00:00",
   "source": "https://www.tdtchannels.com/lists/tv.m3u8",
   "epg": "https://www.tdtchannels.com/epg/TV.xml.gz",
-  "channels": 576,
-  "unique_channels": 434,
-  "self_hosted_logos": 423,
-  "uncached_logos": 11,
-  "logo_coverage_percent": 97.5,
+  "channels": 574,
+  "unique_channels": 432,
+  "self_hosted_logos": 422,
+  "uncached_logos": 10,
+  "logo_coverage_percent": 97.7,
   "uncached_channel_ids": [
     "1Muz Bielorrusia",
     "Canal Telecaribe Colombia",
     "Castilla-La Mancha Radio (CMM)",
     "De Laredu Lin TV",
     "Infantil (Canal Extremadura)",
-    "MiBit Almansa TV",
     "Parlamento de La Rioja",
     "Pat Bolivia",
     "Semos asina (Canal Extremadura)",
@@ -21,13 +20,13 @@
     "Teledifusão de Macau"
   ],
   "logo_source_breakdown": {
-    "cache": 423,
+    "cache": 421,
     "override": 0,
-    "iptv-org": 0,
+    "iptv-org": 1,
     "tv-logos": 0,
     "source": 0,
     "favicon": 0,
-    "failed": 11
+    "failed": 10
   },
   "iptv_org_catalog_error": null,
   "tdt_website_catalog_error": null
