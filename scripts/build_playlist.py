@@ -45,6 +45,7 @@ LOGOS_DIR = DOCS_DIR / "logos"
 OUTPUT_PATH = DOCS_DIR / "tv-uhf.m3u8"
 STATUS_PATH = DOCS_DIR / "status.json"
 OVERRIDES_PATH = ROOT / "logo_overrides.json"
+EXTRA_CHANNELS_PATH = ROOT / "extra_channels.json"
 TV_LOGOS_DIR = Path(os.environ["TV_LOGOS_DIR"]) if os.environ.get("TV_LOGOS_DIR") else None
 
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
@@ -124,6 +125,7 @@ COUNTRY_HINTS = {
     "italia": "IT",
     "japon": "JP",
     "mexico": "MX",
+    "macau": "MO",
     "peru": "PE",
     "polonia": "PL",
     "reinounido": "GB",
@@ -146,6 +148,12 @@ ALIASES = {
     "bemad": "bemadtv",
     "apunt": "apunt",
     "extremaduratv": "canalextremadura",
+    "infantil": "canalextremadura",
+    "semosasina": "canalextremadura",
+    "castillalamancharadio": "castillademancha",
+    "canaltelecaribecolombia": "telecaribe",
+    "patbolivia": "pat",
+    "teledifusaodemacau": "canalmacau",
     "canarias": "tvcanaria",
 }
 USER_AGENT = (
@@ -244,6 +252,7 @@ def channel_variants(line: str) -> set[str]:
     key = stable_key(line)
     values = {
         key.removesuffix(".TV"),
+        key.rsplit(".", 1)[0],
         attrs.get("tvg-name", ""),
         channel_name(line),
     }
@@ -558,10 +567,51 @@ def load_overrides() -> dict[str, str]:
     return {str(key): str(url) for key, url in value.items() if url}
 
 
+def load_extra_channels() -> tuple[list[str], list[dict[str, str]]]:
+    if not EXTRA_CHANNELS_PATH.exists():
+        return [], []
+    value = json.loads(EXTRA_CHANNELS_PATH.read_text(encoding="utf-8"))
+    if not isinstance(value, list):
+        raise ValueError("extra_channels.json must contain an array")
+
+    lines: list[str] = []
+    channels: list[dict[str, str]] = []
+    required = ("id", "name", "label", "group", "url", "quality", "dynamic_range")
+    for item in value:
+        if not isinstance(item, dict):
+            raise ValueError("every extra channel must be an object")
+        channel = {field: str(item.get(field) or "").strip() for field in required}
+        channel["logo"] = str(item.get("logo") or "").strip()
+        channel["verified_at"] = str(item.get("verified_at") or "").strip()
+        missing = [field for field in required if not channel[field]]
+        if missing:
+            raise ValueError(f"extra channel is missing: {', '.join(missing)}")
+        for field, field_value in channel.items():
+            if any(character in field_value for character in ('"', "\r", "\n")):
+                raise ValueError(f"invalid character in extra channel field: {field}")
+        if not channel["url"].startswith("https://"):
+            raise ValueError("extra channel URLs must use HTTPS")
+        logo_attribute = f' tvg-logo="{channel["logo"]}"' if channel["logo"] else ""
+        lines.extend(
+            (
+                f'#EXTINF:-1 tvg-id="{channel["id"]}" tvg-name="{channel["name"]}"'
+                f'{logo_attribute} group-title="{channel["group"]}"'
+                f' quality="{channel["quality"]}" video-range="{channel["dynamic_range"]}",'
+                f'{channel["label"]}',
+                channel["url"],
+            )
+        )
+        channels.append(channel)
+    return lines, channels
+
+
 def build() -> dict[str, object]:
     source = download_text(SOURCE_URL)
     source_lines = source.splitlines()
-    extinf_lines = [line for line in source_lines if line.startswith("#EXTINF")]
+    extra_lines, extra_channels = load_extra_channels()
+    extinf_lines = [
+        line for line in source_lines + extra_lines if line.startswith("#EXTINF")
+    ]
     if not extinf_lines:
         raise RuntimeError("the source contains no channels")
 
@@ -633,7 +683,7 @@ def build() -> dict[str, object]:
                 failures[key] = error
 
     output_lines = [f'#EXTM3U url-tvg="{EPG_URL}"']
-    for line in source_lines:
+    for line in source_lines + extra_lines:
         if line.startswith("#EXTM3U"):
             continue
         if line.startswith("#EXTINF"):
@@ -657,6 +707,16 @@ def build() -> dict[str, object]:
         "source": SOURCE_URL,
         "epg": EPG_URL,
         "channels": len(extinf_lines),
+        "source_channels": len(extinf_lines) - len(extra_channels),
+        "curated_extra_channels": len(extra_channels),
+        "curated_uhd_channels": sum(
+            channel["quality"].lower() in {"2160p", "4k", "uhd"}
+            for channel in extra_channels
+        ),
+        "curated_hdr_channels": sum(
+            channel["dynamic_range"].upper() in {"HDR", "HLG", "PQ", "HDR10"}
+            for channel in extra_channels
+        ),
         "unique_channels": len(logo_sources),
         "self_hosted_logos": len(cached_logos),
         "uncached_logos": len(failures),
