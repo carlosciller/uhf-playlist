@@ -25,6 +25,7 @@ https://www.tdtchannels.com/epg/TV.xml.gz
 - Translates UHF group names into English while preserving official channel names.
 - Keeps every channel and alternative stream provided by the source.
 - Preserves adaptive HLS master playlists, allowing UHF to select the best rendition available for the connection and device.
+- Inspects advertised HLS resolutions, keeps the latest successful result, labels the maximum available quality, and places higher-resolution alternatives first when UHF groups equivalent channels.
 - Adds only public UHD/HDR streams whose advertised and decoded video properties have been checked.
 
 ## UHD and HDR policy

@@ -44,11 +44,13 @@ DOCS_DIR = ROOT / "docs"
 LOGOS_DIR = DOCS_DIR / "logos"
 OUTPUT_PATH = DOCS_DIR / "tv-uhf.m3u8"
 STATUS_PATH = DOCS_DIR / "status.json"
+QUALITY_PATH = DOCS_DIR / "quality.json"
 OVERRIDES_PATH = ROOT / "logo_overrides.json"
 EXTRA_CHANNELS_PATH = ROOT / "extra_channels.json"
 TV_LOGOS_DIR = Path(os.environ["TV_LOGOS_DIR"]) if os.environ.get("TV_LOGOS_DIR") else None
 
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
+HLS_ATTRIBUTE_RE = re.compile(r'([A-Z0-9-]+)=("[^"]*"|[^,]*)')
 EXTINF_NAME_RE = re.compile(r",(.*)$")
 GROUP_TITLE_RE = re.compile(r'group-title="([^"]*)"')
 SAFE_EXTENSIONS = {"png", "jpg", "webp", "gif", "svg"}
@@ -605,15 +607,217 @@ def load_extra_channels() -> tuple[list[str], list[dict[str, str]]]:
     return lines, channels
 
 
+def playlist_blocks(lines: list[str]) -> list[list[str]]:
+    blocks: list[list[str]] = []
+    current: list[str] = []
+    for line in lines:
+        if line.startswith("#EXTM3U"):
+            continue
+        if line.startswith("#EXTINF"):
+            if current:
+                blocks.append(current)
+            current = [line]
+        elif current:
+            current.append(line)
+    if current:
+        blocks.append(current)
+    return blocks
+
+
+def block_stream_url(block: list[str]) -> str:
+    for line in block[1:]:
+        if line and not line.startswith("#"):
+            return line
+    return ""
+
+
+def block_group_key(block: list[str]) -> tuple[str, str, str]:
+    attrs = attributes(block[0])
+    return (
+        attrs.get("group-title", ""),
+        attrs.get("tvg-id", ""),
+        attrs.get("tvg-name", channel_name(block[0])),
+    )
+
+
+def load_quality_cache() -> dict[str, dict[str, object]]:
+    if not QUALITY_PATH.exists():
+        return {}
+    try:
+        value = json.loads(QUALITY_PATH.read_text(encoding="utf-8"))
+        streams = value.get("streams", {}) if isinstance(value, dict) else {}
+        if not isinstance(streams, dict):
+            return {}
+        return {
+            str(url): info
+            for url, info in streams.items()
+            if isinstance(info, dict) and int(info.get("height") or 0) > 0
+        }
+    except (OSError, ValueError, TypeError):
+        return {}
+
+
+def probe_stream_quality(url: str) -> tuple[str, dict[str, object] | None]:
+    request = urllib.request.Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/vnd.apple.mpegurl,application/x-mpegURL,text/plain,*/*",
+        },
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=10) as response:
+            raw = response.read(1_000_001)
+        if len(raw) > 1_000_000:
+            return url, None
+        manifest = raw.decode("utf-8-sig", "replace")
+    except Exception:
+        return url, None
+
+    resolutions: list[tuple[int, int]] = []
+    for line in manifest.splitlines():
+        if not line.startswith("#EXT-X-STREAM-INF"):
+            continue
+        attrs = {
+            key: value.strip('"') for key, value in HLS_ATTRIBUTE_RE.findall(line)
+        }
+        resolution = attrs.get("RESOLUTION", "")
+        try:
+            width, height = (int(value) for value in resolution.lower().split("x", 1))
+        except (TypeError, ValueError):
+            continue
+        if width > 0 and height > 0:
+            resolutions.append((width, height))
+    if not resolutions:
+        return url, None
+
+    width, height = max(resolutions, key=lambda value: (value[1], value[0]))
+    return url, {
+        "width": width,
+        "height": height,
+        "checked_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+    }
+
+
+def quality_height_from_line(line: str) -> int:
+    quality = attributes(line).get("quality", "").lower()
+    return {
+        "uhd": 2160,
+        "4k": 2160,
+        "2160p": 2160,
+        "fhd": 1080,
+        "1080p": 1080,
+        "hd": 720,
+        "720p": 720,
+        "sd": 576,
+    }.get(quality, 0)
+
+
+def quality_label(height: int) -> str:
+    if height >= 2160:
+        return "UHD"
+    if height >= 1080:
+        return "FHD"
+    if height >= 720:
+        return "HD"
+    if height > 0:
+        return "SD"
+    return ""
+
+
+def set_attribute(line: str, key: str, value: str) -> str:
+    pattern = rf'{re.escape(key)}="[^"]*"'
+    if re.search(pattern, line):
+        return re.sub(pattern, f'{key}="{value}"', line, count=1)
+    comma = line.rfind(",")
+    return f'{line[:comma]} {key}="{value}"{line[comma:]}' if comma >= 0 else line
+
+
+def set_visible_quality(line: str, label: str) -> str:
+    if not label:
+        return line
+    comma = line.rfind(",")
+    if comma < 0:
+        return line
+    display_name = line[comma + 1 :].strip()
+    display_name = re.sub(r"\s+·\s+(?:UHD|FHD|HD|SD)$", "", display_name)
+    if re.search(r"\b(?:4K|UHD|FHD)\b", display_name, flags=re.IGNORECASE):
+        return line
+    return f"{line[:comma + 1]}{display_name} · {label}"
+
+
+def order_and_label_blocks(
+    blocks: list[list[str]], quality: dict[str, dict[str, object]]
+) -> tuple[list[list[str]], int, dict[str, int]]:
+    prepared: list[tuple[list[str], int, str]] = []
+    for block in blocks:
+        url = block_stream_url(block)
+        info = quality.get(url, {})
+        height = int(info.get("height") or 0) or quality_height_from_line(block[0])
+        label = quality_label(height)
+        if label:
+            block = block.copy()
+            block[0] = set_attribute(block[0], "quality", label)
+            block[0] = set_visible_quality(block[0], label)
+        prepared.append((block, height, label))
+
+    ordered: list[list[str]] = []
+    reordered_groups = 0
+    quality_counts = {"UHD": 0, "FHD": 0, "HD": 0, "SD": 0, "unknown": 0}
+    index = 0
+    while index < len(prepared):
+        group_key = block_group_key(prepared[index][0])
+        end = index + 1
+        while end < len(prepared) and block_group_key(prepared[end][0]) == group_key:
+            end += 1
+        run = prepared[index:end]
+        sorted_run = sorted(
+            enumerate(run),
+            key=lambda item: (
+                0 if item[1][1] > 0 else 1,
+                -item[1][1],
+                item[0],
+            ),
+        )
+        if [item[0] for item in sorted_run] != list(range(len(run))):
+            reordered_groups += 1
+        for _, (block, _, label) in sorted_run:
+            ordered.append(block)
+            quality_counts[label or "unknown"] += 1
+        index = end
+    return ordered, reordered_groups, quality_counts
+
+
+def refresh_quality(
+    blocks: list[list[str]], cache: dict[str, dict[str, object]]
+) -> tuple[dict[str, dict[str, object]], int]:
+    urls = sorted({block_stream_url(block) for block in blocks if block_stream_url(block)})
+    fresh = 0
+    workers = min(28, max(1, len(urls)))
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        for url, info in executor.map(probe_stream_quality, urls):
+            if info:
+                cache[url] = info
+                fresh += 1
+    return {url: cache[url] for url in urls if url in cache}, fresh
+
+
 def build() -> dict[str, object]:
     source = download_text(SOURCE_URL)
     source_lines = source.splitlines()
     extra_lines, extra_channels = load_extra_channels()
-    extinf_lines = [
-        line for line in source_lines + extra_lines if line.startswith("#EXTINF")
-    ]
+    blocks = playlist_blocks(source_lines + extra_lines)
+    extinf_lines = [block[0] for block in blocks]
     if not extinf_lines:
         raise RuntimeError("the source contains no channels")
+
+    quality_cache, freshly_probed_streams = refresh_quality(
+        blocks, load_quality_cache()
+    )
+    blocks, reordered_quality_groups, quality_counts = order_and_label_blocks(
+        blocks, quality_cache
+    )
+    extinf_lines = [block[0] for block in blocks]
 
     overrides = load_overrides()
     reference_index = build_reference_index()
@@ -683,25 +887,36 @@ def build() -> dict[str, object]:
                 failures[key] = error
 
     output_lines = [f'#EXTM3U url-tvg="{EPG_URL}"']
-    for line in source_lines + extra_lines:
-        if line.startswith("#EXTM3U"):
-            continue
-        if line.startswith("#EXTINF"):
-            key = stable_key(line)
-            cached = cached_logos.get(key)
-            if cached:
-                public_url = (
-                    f"{PUBLIC_BASE_URL}/logos/"
-                    f"{urllib.parse.quote(cached.name, safe='.-_')}"
-                )
-                line = replace_logo(line, public_url)
-            else:
-                line = remove_logo(line)
-            line = translate_group_title(line)
-        output_lines.append(line)
+    for block in blocks:
+        for line in block:
+            if line.startswith("#EXTINF"):
+                key = stable_key(line)
+                cached = cached_logos.get(key)
+                if cached:
+                    public_url = (
+                        f"{PUBLIC_BASE_URL}/logos/"
+                        f"{urllib.parse.quote(cached.name, safe='.-_')}"
+                    )
+                    line = replace_logo(line, public_url)
+                else:
+                    line = remove_logo(line)
+                line = translate_group_title(line)
+            output_lines.append(line)
 
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text("\n".join(output_lines).rstrip() + "\n", encoding="utf-8")
+    QUALITY_PATH.write_text(
+        json.dumps(
+            {
+                "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+                "streams": dict(sorted(quality_cache.items())),
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
     status: dict[str, object] = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "source": SOURCE_URL,
@@ -717,6 +932,10 @@ def build() -> dict[str, object]:
             channel["dynamic_range"].upper() in {"HDR", "HLG", "PQ", "HDR10"}
             for channel in extra_channels
         ),
+        "quality_profiles": quality_counts,
+        "quality_cache_entries": len(quality_cache),
+        "freshly_probed_streams": freshly_probed_streams,
+        "quality_prioritized_groups": reordered_quality_groups,
         "unique_channels": len(logo_sources),
         "self_hosted_logos": len(cached_logos),
         "uncached_logos": len(failures),
