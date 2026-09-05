@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T19:42:42.310561+00:00",
+  "generated_at": "2026-09-05T20:59:49.061231+00:00",
   "source": "https://www.tdtchannels.com/lists/tv.m3u8",
   "epg": "https://www.tdtchannels.com/epg/TV.xml.gz",
   "channels": 575,
@@ -7,14 +7,24 @@
   "curated_extra_channels": 1,
   "curated_uhd_channels": 1,
   "curated_hdr_channels": 0,
+  "quality_profiles": {
+    "UHD": 1,
+    "FHD": 202,
+    "HD": 141,
+    "SD": 21,
+    "unknown": 210
+  },
+  "quality_cache_entries": 365,
+  "freshly_probed_streams": 365,
+  "quality_prioritized_groups": 15,
   "unique_channels": 433,
   "self_hosted_logos": 433,
   "uncached_logos": 0,
   "logo_coverage_percent": 100.0,
   "uncached_channel_ids": [],
   "logo_source_breakdown": {
-    "cache": 431,
-    "override": 2,
+    "cache": 433,
+    "override": 0,
     "iptv-org": 0,
     "tv-logos": 0,
     "source": 0,

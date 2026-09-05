@@ -31,6 +31,10 @@ def main() -> None:
     pending_channel = False
     channel_keys: set[str] = set()
     logo_urls: set[str] = set()
+    quality_counts = {"UHD": 0, "FHD": 0, "HD": 0, "SD": 0, "unknown": 0}
+    quality_heights = {"UHD": 2160, "FHD": 1080, "HD": 720, "SD": 576}
+    previous_group: tuple[str, str, str] | None = None
+    previous_height = 0
     for line_number, line in enumerate(lines[1:], start=2):
         if not line:
             continue
@@ -42,6 +46,20 @@ def main() -> None:
             attrs = dict(ATTRIBUTE_RE.findall(line))
             display_name = line.rsplit(",", 1)[-1].strip()
             channel_keys.add(attrs.get("tvg-id") or attrs.get("tvg-name") or display_name)
+            quality = attrs.get("quality", "")
+            if quality and quality not in quality_heights:
+                fail(f"unknown quality label at line {line_number}: {quality}")
+            quality_counts[quality or "unknown"] += 1
+            height = quality_heights.get(quality, 0)
+            group = (
+                attrs.get("group-title", ""),
+                attrs.get("tvg-id", ""),
+                attrs.get("tvg-name", display_name),
+            )
+            if group == previous_group and height > previous_height:
+                fail(f"higher-quality alternative is not first at line {line_number}")
+            previous_group = group
+            previous_height = height
             logo_url = attrs.get("tvg-logo")
             if logo_url:
                 if not logo_url.startswith(LOGO_PREFIX):
@@ -79,6 +97,7 @@ def main() -> None:
             in {"HDR", "HLG", "PQ", "HDR10"}
             for channel in extras
         ),
+        "quality_profiles": quality_counts,
         "unique_channels": len(channel_keys),
         "self_hosted_logos": len(logo_urls),
         "uncached_logos": len(channel_keys) - len(logo_urls),
