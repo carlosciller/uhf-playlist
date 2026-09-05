@@ -1,0 +1,13 @@
+[
+  {
+    "id": "IRIBUHD.ir",
+    "name": "IRIB UHD",
+    "label": "IRIB UHD · 4K SDR",
+    "group": "UHD / HDR",
+    "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png",
+    "quality": "2160p",
+    "dynamic_range": "SDR",
+    "verified_at": "2026-09-05"
+  }
+]

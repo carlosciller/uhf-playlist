@@ -38,6 +38,9 @@ jobs:
           TV_LOGOS_DIR: .logo-source/countries
         run: python scripts/build_playlist.py
 
+      - name: Validate generated playlist
+        run: python scripts/validate_playlist.py
+
       - name: Publish changes
         run: |
           git config user.name "github-actions[bot]"
