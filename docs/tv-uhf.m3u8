@@ -1032,7 +1032,7 @@ https://8f4cbe9fa8d44aa3bfd4283527a9effd.mediatailor.us-east-2.amazonaws.com/v1/
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16285&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live&ua=[%25UA%25]&device_type=[DEVICE_TYPE]&min_ad_duration=6&max_ad_duration=120&ip=[IP]
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-jenny-live-5fb3eac3.jpg" group-title="International · Other" tvg-name="Miami TV Jenny Live" quality="FHD",Miami TV Jenny Live · FHD
 https://bdc8100df748400cabc7e133824c8ceb.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast-jennylive/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/agrotendencia-1409bd89.png" group-title="International · Other" tvg-name="Agrotendencia",Agrotendencia
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/agrotendencia-1409bd89.png" group-title="International · Other" tvg-name="Agrotendencia" quality="FHD",Agrotendencia · FHD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16427&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=mirametv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&gdpr=[GDPR]&content_id=mirametv_live&device_type=[DEVICE_TYPE]&ip=[IP]&min_ad_duration=6&max_ad_duration=120&ua=[UA]
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/classic-arts-showcase-7223297d.png" group-title="International · Other" tvg-name="Classic Arts Showcase" quality="HD",Classic Arts Showcase EN · HD
 https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
@@ -1120,7 +1120,7 @@ https://stream.4fun.tv:8888/hls/4f_high/index.m3u8
 https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e17cd59e8b.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/power-tv-turquia-985e16e1.jpg" group-title="Music" tvg-name="Power TV Turquía" quality="FHD",Power TV Turquía · FHD
 https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlists.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/nrg91-grecia-bcd2e33c.jpg" group-title="Music" tvg-name="NRG91 Grecia",NRG91 Grecia
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/nrg91-grecia-bcd2e33c.jpg" group-title="Music" tvg-name="NRG91 Grecia" quality="HD",NRG91 Grecia · HD
 http://tv.nrg91.gr:1935/onweb/live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/cmc-croacia-6dc64f01.png" group-title="Music" tvg-name="CMC Croacia",CMC Croacia
 https://stream.cmctv.hr:49998/cmc/live.m3u8
