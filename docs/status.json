@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:21:38.535421+00:00",
+  "generated_at": "2026-09-08T09:44:00.483365+00:00",
   "source": "https://www.tdtchannels.com/lists/tv.m3u8",
   "epg": "https://www.tdtchannels.com/epg/TV.xml.gz",
   "channels": 575,
@@ -10,11 +10,11 @@
   "quality_profiles": {
     "UHD": 1,
     "FHD": 214,
-    "HD": 154,
+    "HD": 155,
     "SD": 21,
-    "unknown": 185
+    "unknown": 184
   },
-  "quality_cache_entries": 390,
+  "quality_cache_entries": 391,
   "freshly_probed_streams": 338,
   "quality_prioritized_groups": 14,
   "unique_channels": 433,
