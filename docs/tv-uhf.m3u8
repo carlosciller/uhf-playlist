@@ -412,7 +412,7 @@ https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-calima-tv-0204dc96.png" group-title="Canary Islands" tvg-name="Radio Calima TV" quality="HD",Radio Calima TV · HD
 https://nrvideo1.newradio.it:443/calimafm/calimafm/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/afortunadas-tv-c7f40361.png" group-title="Canary Islands" tvg-name="Afortunadas TV",Afortunadas TV
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/afortunadas-tv-c7f40361.png" group-title="Canary Islands" tvg-name="Afortunadas TV" quality="HD",Afortunadas TV · HD
 https://cloudvideo.servers10.com:8081/8108/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/saja-nansa-tv-6e81f789.png" group-title="Cantabria" tvg-name="Saja Nansa TV" quality="HD",Saja Nansa TV · HD
 https://streamlov.alsolnet.com/sajanansatv/live/playlist.m3u8
@@ -1120,7 +1120,7 @@ https://eu.live.skyfolk.mk/live.m3u8
 http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/1muz-bielorrusia-f0a5fabd.png" group-title="Music" tvg-name="1Muz Bielorrusia",1Muz Bielorrusia SD
 http://hz1.teleport.cc/HLS/SD.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="HD",Tropical Moon TV · HD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="FHD",Tropical Moon TV · FHD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16185&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=salsatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="HD",Tropical Moon TV · HD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16184&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=cumbiatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live
