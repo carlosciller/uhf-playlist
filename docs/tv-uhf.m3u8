@@ -261,7 +261,6 @@ https://nimble.tuyapro.es/app/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OndaAlgeciras.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ondaalgeciras-tv-dcbadcba.png" group-title="Andalusia" tvg-name="Onda Algeciras TV",Onda Algeciras TV
 https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 #EXTINF:-1 tvg-id="PTV_Malaga.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ptv-malaga-tv-3919310f.png" group-title="Andalusia" tvg-name="PTV Málaga" quality="FHD",PTV Málaga · FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://streamer.zapitv.com/PTV-malaga/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/andalucia-cocina-7f67cc6a.jpg" group-title="Andalusia" tvg-name="Andalucía Cocina",Andalucía Cocina
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
@@ -322,10 +321,8 @@ https://broadcast1.radioponiente.org/atv/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-san-roque-cae0a859.png" group-title="Andalusia" tvg-name="Canal San Roque",Canal San Roque
 https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PTV_Linares.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ptv-linares-tv-94874eb1.png" group-title="Andalusia" tvg-name="PTV Linares" quality="FHD",PTV Linares · FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://streamer.zapitv.com/ptv-linarez/index.m3u8
 #EXTINF:-1 tvg-id="PTV_Sevilla.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ptv-sevilla-tv-832cd045.png" group-title="Andalusia" tvg-name="PTV Sevilla" quality="FHD",PTV Sevilla · FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://streamer.zapitv.com/PTV_sevilla/index.m3u8
 #EXTINF:-1 tvg-id="Telemotril.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telemotril-tv-2bff8d80.png" group-title="Andalusia" tvg-name="Telemotril",Telemotril
 https://5940924978228.streamlock.net/8431/8431/playlist.m3u8
@@ -345,10 +342,8 @@ https://9laloma.tv/live.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/mijas340tv-tv-b0770d36.png" group-title="Andalusia" tvg-name="Mijas 3.40 TV",Mijas 3.40 TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
 #EXTINF:-1 tvg-id="PTV_Granada.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ptv-granada-tv-b61941a9.png" group-title="Andalusia" tvg-name="PTV Granada" quality="FHD",PTV Granada · FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://streamer.zapitv.com/PTV-granada/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ptv-cordoba-4e562102.png" group-title="Andalusia" tvg-name="PTV Córdoba" quality="FHD",PTV Córdoba · FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
 https://streamer.zapitv.com/PTV_CORDOBA/index.m3u8
 #EXTINF:-1 tvg-id="CanalCoin.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canalcoin-tv-1390b73e.jpg" group-title="Andalusia" tvg-name="Canal Coín",Canal Coín
 https://canalcoin.garjim.es/hls/directo.m3u8
@@ -365,6 +360,8 @@ https://video3.lhdserver.es/cartayatv/live.m3u8
 https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telegranada-6b869db0.png" group-title="Andalusia" tvg-name="TeleGranada" quality="FHD",TeleGranada · FHD
 https://telegranada.es/hls/stream.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/huelva-conecta-c5f0f123.png" group-title="Andalusia" tvg-name="Huelva Conecta",Huelva Conecta
+https://servidor.islahostingla.com:3542/live/huelvaconecta3live.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/music-tv-granada-e69e356f.png" group-title="Andalusia" tvg-name="Music TV Granada" quality="FHD",Music TV Granada · FHD
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/parlamento-de-andalucia-1b2aad27.png" group-title="Andalusia" tvg-name="Parlamento de Andalucía" quality="FHD",Parlamento de Andalucía · FHD
@@ -399,6 +396,8 @@ https://live.atlanticotelevision.com/hls/hi/index.m3u8
 https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/nortevision-8b644035.png" group-title="Canary Islands" tvg-name="NORTEvisión",NORTEvisión
 http://amaru.dyndns.org:8870/0.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ahora-tv-0e63813e.png" group-title="Canary Islands" tvg-name="Ahora TV",Ahora TV
+https://tv.mediacp.eu/hls/ahoratv/ahoratv.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtv-mogan-80270426.png" group-title="Canary Islands" tvg-name="RTV Mogán" quality="FHD",RTV Mogán · FHD
 https://cloudvideo.servers10.com:8081/8028/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/este-canal-tv-55842b53.jpg" group-title="Canary Islands" tvg-name="Este Canal TV",Este Canal TV
@@ -594,12 +593,16 @@ https://media2.streambrothers.com:1936/8140/8140/.m3u8
 https://59ec5453559f0.streamlock.net/iprotv/iprotv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/lira-tv-e952785b.png" group-title="Community of Madrid" tvg-name="LIRA TV" quality="HD",LIRA TV · HD
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/xaloa-telebista-25dd2337.png" group-title="Navarre" tvg-name="Xaloa Telebista" quality="FHD",Xaloa Telebista · FHD
+https://streaming.mediacast.pro/live/xaloa/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/parlamento-de-navarra-be5e3d15.png" group-title="Navarre" tvg-name="Parlamento de Navarra" quality="HD",Parlamento de Navarra · HD
 https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/parlamento-de-navarra-be5e3d15.png" group-title="Navarre" tvg-name="Parlamento de Navarra" quality="HD",Parlamento de Navarra · HD
 https://broadcasting.parlamentodenavarra.es/live/canal2/playlist.m3u8?DVR
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/parlamento-de-navarra-be5e3d15.png" group-title="Navarre" tvg-name="Parlamento de Navarra" quality="HD",Parlamento de Navarra · HD
 https://broadcasting.parlamentodenavarra.es/live/canal3/playlist.m3u8?DVR
+#EXTINF:-1 tvg-id="APUNT.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/apunt-tv-72bf1303.webp" group-title="Valencian Community" tvg-name="À Punt" quality="FHD",À Punt · FHD
+https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/8-la-marina-tv-8365db52.png" group-title="Valencian Community" tvg-name="8 La Marina TV",8 La Marina TV
 https://streaming005.gestec-video.com/hls/canal24.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/intercomarcal-tv-c6726355.png" group-title="Valencian Community" tvg-name="Intercomarcal TV",Intercomarcal TV
@@ -916,9 +919,6 @@ https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp02.smil/playlist.m3
 https://liveingesta118.cdnmedia.tv/canaltro2live/smil:live.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/exitosa-noticias-peru-ab46288d.png" group-title="International · Americas" tvg-name="Exitosa Noticias Perú" quality="HD",Exitosa Noticias Perú · HD
 https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-ipe-peru-0da04ea5.png" group-title="International · Americas" tvg-name="Canal IPe Perú",Canal IPe Perú
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
-https://cdnhd.iblups.com/hls/3f2cb1658d114f2693eff18d83199e677.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/latina-peru-9591a28b.png" group-title="International · Americas" tvg-name="Latina Perú" quality="FHD",Latina Perú · FHD
 https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/latina-peru-9591a28b.png" group-title="International · Americas" tvg-name="Latina Perú" quality="FHD",Latina Perú · FHD
@@ -936,12 +936,14 @@ https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/oromar-tv-ecuador-94729ebb.png" group-title="International · Americas" tvg-name="Oromar TV Ecuador",Oromar TV Ecuador
 https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/pat-bolivia-1e214d57.png" group-title="International · Americas" tvg-name="Pat Bolivia",Pat Bolivia
-https://www.redpat.tv:8000/play/12/index.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/pat-bolivia-1e214d57.png" group-title="International · Americas" tvg-name="Pat Bolivia",Pat Bolivia
-https://www.redpat.tv:8000/play/110/index.m3u8
+https://www.redpat.tv:8000/play/12/74929205.m3u8
 #EXTINF:-1 tvg-id="Cubavision.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/cubavision-tv-d45c6088.png" group-title="International · Americas" tvg-name="Cubavisión TV Cuba",Cubavisión TV Cuba
 #EXTVLCOPT:http-referrer=https://teveo.cu/live/video/AKDdWvMTYzfsfnNJ/embed?auto=true
 https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/hch-honduras-33bb04d0.jpg" group-title="International · Americas" tvg-name="HCH Honduras",HCH Honduras
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
+#EXTVLCOPT:http-referrer=https://hch.tv/hch-en-vivo/
+https://stream.hch.hn/live/streams/stream1.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/wtv-nicaragua-b27befb4.jpg" group-title="International · Americas" tvg-name="WTV Nicaragua" quality="HD",WTV Nicaragua · HD
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telediario-costa-rica-4c306e99.png" group-title="International · Americas" tvg-name="TeleDiario Costa Rica" quality="HD",TeleDiario Costa Rica · HD
@@ -1014,7 +1016,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadees16intern
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadeinternationalenglish24i-ono/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/fashion-tv-c3063629.png" group-title="International · Other" tvg-name="Fashion TV" quality="FHD",Fashion TV · FHD
 https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-fashion-3a0ed1fb.png" group-title="International · Other" tvg-name="Miami TV Fashion" quality="HD",Miami TV Fashion · HD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-fashion-3a0ed1fb.png" group-title="International · Other" tvg-name="Miami TV Fashion" quality="FHD",Miami TV Fashion · FHD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16284&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live&ua=[%UA%]&device_type=[DEVICE_TYPE]&min_ad_duration=6&max_ad_duration=120&ip=[IP]
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-gold-300a707a.png" group-title="International · Other" tvg-name="Miami TV Gold" quality="FHD",Miami TV Gold · FHD
 https://8f4cbe9fa8d44aa3bfd4283527a9effd.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast_gold/playlist.m3u8
@@ -1120,10 +1122,10 @@ https://eu.live.skyfolk.mk/live.m3u8
 http://hz1.teleport.cc/HLS/HD.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/1muz-bielorrusia-f0a5fabd.png" group-title="Music" tvg-name="1Muz Bielorrusia",1Muz Bielorrusia SD
 http://hz1.teleport.cc/HLS/SD.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="FHD",Tropical Moon TV · FHD
+https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16184&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=cumbiatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="HD",Tropical Moon TV · HD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16185&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=salsatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tropical-moon-tv-26b1cbcc.png" group-title="Music" tvg-name="Tropical Moon TV" quality="HD",Tropical Moon TV · HD
-https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16184&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=cumbiatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/vm-latino-costa-rica-ac46e3e5.png" group-title="Music" tvg-name="VM Latino Costa Rica" quality="HD",VM Latino Costa Rica · HD
 https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/venus-media-paraguay-28bf067c.jpg" group-title="Music" tvg-name="Venus Media Paraguay" quality="FHD",Venus Media Paraguay · FHD
