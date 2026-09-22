@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T10:46:44.800462+00:00",
+  "generated_at": "2026-09-22T09:59:42.592067+00:00",
   "streams": {
     "http://tv.nrg91.gr:1935/onweb/live/playlist.m3u8": {
       "width": 1280,
@@ -9,142 +9,142 @@
     "https://1211313014.rsc.cdn77.org/1211313014/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:23.582109+00:00"
+      "checked_at": "2026-09-22T09:58:39.308684+00:00"
     },
     "https://1601580044.rsc.cdn77.org/live/_jcn_/amls:Italiatre/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:23.460835+00:00"
+      "checked_at": "2026-09-22T09:58:39.211230+00:00"
     },
     "https://1601580044.rsc.cdn77.org/live/_jcn_/amlst:Mariavision/master.m3u8": {
       "width": 720,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:23.461776+00:00"
+      "checked_at": "2026-09-22T09:58:39.182157+00:00"
     },
     "https://183.bozztv.com/ssh101/ssh101/pequeradiotv/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.602916+00:00"
+      "checked_at": "2026-09-22T09:58:39.295195+00:00"
     },
     "https://2d006483e2aa43fe812f7b464cb2916d.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/Samsung_Stadium/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.608256+00:00"
+      "checked_at": "2026-09-22T09:58:39.220416+00:00"
     },
     "https://30a-tv.com/feeds/ceftech/30atvmusic.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.006432+00:00"
+      "checked_at": "2026-09-22T09:58:39.740686+00:00"
     },
     "https://3abn.bozztv.com/3abn2/3abn_live/smil:3abn_live.smil/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.734915+00:00"
+      "checked_at": "2026-09-22T09:58:39.292103+00:00"
     },
     "https://3abn.bozztv.com/3abn2/Lat_live/smil:Lat_live.smil/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.732854+00:00"
+      "checked_at": "2026-09-22T09:58:39.298427+00:00"
     },
     "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-19T09:32:35.709851+00:00"
+      "checked_at": "2026-09-22T09:58:39.900712+00:00"
     },
     "https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.553146+00:00"
+      "checked_at": "2026-09-22T09:58:40.022036+00:00"
     },
     "https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8": {
       "width": 960,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.207700+00:00"
+      "checked_at": "2026-09-22T09:58:39.595820+00:00"
     },
     "https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.206675+00:00"
+      "checked_at": "2026-09-22T09:58:39.684706+00:00"
     },
     "https://5924d3ad0efcf.streamlock.net/riojatv/riojatvlive/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.250576+00:00"
+      "checked_at": "2026-09-22T09:58:39.677194+00:00"
     },
     "https://5940924978228.streamlock.net/directohellin/directohellin/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-19T09:32:35.259596+00:00"
+      "checked_at": "2026-09-22T09:58:39.646400+00:00"
     },
     "https://5940924978228.streamlock.net/j_Directo2/j_Directo2/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.111118+00:00"
+      "checked_at": "2026-09-22T09:58:39.646051+00:00"
     },
     "https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.791716+00:00"
+      "checked_at": "2026-09-22T09:58:39.228378+00:00"
     },
     "https://59ec5453559f0.streamlock.net/iprotv/iprotv/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-20T09:49:27.993805+00:00"
+      "checked_at": "2026-09-22T09:58:39.379211+00:00"
     },
     "https://59ef525c24caa.streamlock.net/vmtv/vmlatino/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.450109+00:00"
+      "checked_at": "2026-09-22T09:58:40.043598+00:00"
     },
     "https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.368404+00:00"
+      "checked_at": "2026-09-22T09:58:39.773713+00:00"
     },
     "https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.377781+00:00"
+      "checked_at": "2026-09-22T09:58:39.832855+00:00"
     },
     "https://5ca9af4645e15.streamlock.net/mexicotravel/videomexicotravel/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:23.751336+00:00"
+      "checked_at": "2026-09-22T09:58:39.549216+00:00"
     },
     "https://5caf24a595d94.streamlock.net:1937/8014/8014/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:23.896722+00:00"
+      "checked_at": "2026-09-22T09:58:39.492249+00:00"
     },
     "https://5caf24a595d94.streamlock.net:1937/8110/8110/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:23.896194+00:00"
+      "checked_at": "2026-09-22T09:58:39.491691+00:00"
     },
     "https://5ce9406b73c33.streamlock.net/ONFM/livestream/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.167758+00:00"
+      "checked_at": "2026-09-22T09:58:39.602168+00:00"
     },
     "https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.527615+00:00"
+      "checked_at": "2026-09-22T09:58:39.864482+00:00"
     },
     "https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.541677+00:00"
+      "checked_at": "2026-09-22T09:58:39.869991+00:00"
     },
     "https://5f71743aa95e4.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.535070+00:00"
+      "checked_at": "2026-09-22T09:58:39.827370+00:00"
     },
     "https://8f4cbe9fa8d44aa3bfd4283527a9effd.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast_gold/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-20T09:49:28.114526+00:00"
+      "checked_at": "2026-09-22T09:58:39.498110+00:00"
     },
     "https://9laloma.tv/live.m3u8": {
       "width": 1920,
@@ -154,32 +154,32 @@
     "https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.176582+00:00"
+      "checked_at": "2026-09-22T09:58:39.670421+00:00"
     },
     "https://abr.de1se01.v2beat.live/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.318936+00:00"
+      "checked_at": "2026-09-22T09:58:40.419269+00:00"
     },
     "https://aka-live1050.delivery.roku.com/63a55317-8cde-4c4a-9a5f-3e6a97ae7c9e/t2-origin/out/v1/live.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.679767+00:00"
+      "checked_at": "2026-09-22T09:58:39.560138+00:00"
     },
     "https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smil/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.617966+00:00"
+      "checked_at": "2026-09-22T09:58:40.636574+00:00"
     },
     "https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg01076-lightningintern-gbnews-samsunguk/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.263707+00:00"
+      "checked_at": "2026-09-22T09:58:39.614590+00:00"
     },
     "https://amg17560-fcb-amg17560c2-samsung-es-9803.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcaspanish-samsunges/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.434300+00:00"
+      "checked_at": "2026-09-22T09:58:39.745256+00:00"
     },
     "https://amg17560-fcb-amg17560c3-lg-es-11383.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcacatala-lges/playlist.m3u8": {
       "width": 1920,
@@ -194,142 +194,142 @@
     "https://bdc8100df748400cabc7e133824c8ceb.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast-jennylive/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-20T09:49:28.428789+00:00"
+      "checked_at": "2026-09-22T09:58:39.735823+00:00"
     },
     "https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1hrv&u=n1info&p=n1Sh4redSecre7iNf0&player=m3u8": {
       "width": 720,
       "height": 576,
-      "checked_at": "2026-09-21T10:45:32.359379+00:00"
+      "checked_at": "2026-09-22T09:58:45.546554+00:00"
     },
     "https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.075266+00:00"
+      "checked_at": "2026-09-22T09:58:40.307329+00:00"
     },
     "https://broadcast1.radioponiente.org/almeria24h_aac/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.244328+00:00"
+      "checked_at": "2026-09-22T09:58:40.671381+00:00"
     },
     "https://broadcast1.radioponiente.org/atv/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-18T09:47:03.508197+00:00"
+      "checked_at": "2026-09-22T09:58:44.661906+00:00"
     },
     "https://broadcasting.parlamentodenavarra.es/live/canal1/playlist.m3u8?DVR": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.210722+00:00"
+      "checked_at": "2026-09-22T09:58:40.220713+00:00"
     },
     "https://broadcasting.parlamentodenavarra.es/live/canal2/playlist.m3u8?DVR": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.209954+00:00"
+      "checked_at": "2026-09-22T09:58:40.269530+00:00"
     },
     "https://broadcasting.parlamentodenavarra.es/live/canal3/playlist.m3u8?DVR": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.274202+00:00"
+      "checked_at": "2026-09-22T09:58:40.212213+00:00"
     },
     "https://buzzrota-ono.amagi.tv/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.933278+00:00"
+      "checked_at": "2026-09-22T09:58:39.925522+00:00"
     },
     "https://canalmalaga-tv-live.flumotion.com/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.274349+00:00"
+      "checked_at": "2026-09-22T09:58:40.286962+00:00"
     },
     "https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:24.831184+00:00"
+      "checked_at": "2026-09-22T09:58:39.949652+00:00"
     },
     "https://cdn-canalextremadura.watchity.net/fast1/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.006529+00:00"
+      "checked_at": "2026-09-22T09:58:40.129764+00:00"
     },
     "https://cdn-canalextremadura.watchity.net/fast2/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.992606+00:00"
+      "checked_at": "2026-09-22T09:58:40.128165+00:00"
     },
     "https://cdn-canalextremadura.watchity.net/fast3/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.065703+00:00"
+      "checked_at": "2026-09-22T09:58:40.123246+00:00"
     },
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadees16international24i-ono/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.904861+00:00"
+      "checked_at": "2026-09-22T09:58:40.125327+00:00"
     },
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00047-tastemade-tastemadeinternationalenglish24i-ono/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:24.900764+00:00"
+      "checked_at": "2026-09-22T09:58:40.142558+00:00"
     },
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellagames-estrellamedia/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.227644+00:00"
+      "checked_at": "2026-09-22T09:58:40.346028+00:00"
     },
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-estrellamedia/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.200219+00:00"
+      "checked_at": "2026-09-22T09:58:40.312735+00:00"
     },
     "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellatv-estrellamedia/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.141828+00:00"
+      "checked_at": "2026-09-22T09:58:40.406071+00:00"
     },
     "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-afrique_tm7tu45/playlist_dvr.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.566801+00:00"
+      "checked_at": "2026-09-22T09:58:40.413906+00:00"
     },
     "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.567561+00:00"
+      "checked_at": "2026-09-22T09:58:40.447609+00:00"
     },
     "https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-maghreb_jnbspmg/playlist_dvr.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.575860+00:00"
+      "checked_at": "2026-09-22T09:58:40.411258+00:00"
     },
     "https://cdn1.etbon.eus/etb1/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.211015+00:00"
+      "checked_at": "2026-09-22T09:58:40.255026+00:00"
     },
     "https://cdn1.etbon.eus/etb1on/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.057586+00:00"
+      "checked_at": "2026-09-22T09:58:40.227404+00:00"
     },
     "https://cdn1.etbon.eus/etb2/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.087476+00:00"
+      "checked_at": "2026-09-22T09:58:40.225569+00:00"
     },
     "https://cdn1.etbon.eus/etb2on/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.093413+00:00"
+      "checked_at": "2026-09-22T09:58:40.258353+00:00"
     },
     "https://cdn1.etbon.eus/meteo/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.489356+00:00"
+      "checked_at": "2026-09-22T09:58:40.414784+00:00"
     },
     "https://cdn1.etbon.eus/oc1/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.499266+00:00"
+      "checked_at": "2026-09-22T09:58:40.461119+00:00"
     },
     "https://cdn1.etbon.eus/oc2/index.m3u8": {
       "width": 1920,
@@ -339,172 +339,172 @@
     "https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.774596+00:00"
+      "checked_at": "2026-09-22T09:58:40.705520+00:00"
     },
     "https://cdn3.wowza.com/1/SmVrQmZCUXZhVDgz/b3J3MFJv/hls/live/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.302332+00:00"
+      "checked_at": "2026-09-22T09:58:40.403439+00:00"
     },
     "https://cdn3.wowza.com/1/YW5wSWZiRGd2eFlU/bGV0aVBq/hls/live/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.546840+00:00"
+      "checked_at": "2026-09-22T09:58:40.449853+00:00"
     },
     "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_fmx3e3sd/protocol/https/format/applehttp/a.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.467225+00:00"
+      "checked_at": "2026-09-22T09:58:40.363813+00:00"
     },
     "https://cdnapisec.kaltura.com/p/2288691/sp/228869100/playManifest/entryId/1_gnz6ity9/protocol/https/format/applehttp/a.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.447401+00:00"
+      "checked_at": "2026-09-22T09:58:40.347695+00:00"
     },
     "https://cdnapisec.kaltura.com/p/2346171/sp/234617100/playManifest/entryId/1_vfibi2fe/protocol/https/format/applehttp/a.m3u8?referrer=aHR0cHM6Ly9iZXRldmUuY2F0": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.422274+00:00"
+      "checked_at": "2026-09-22T09:58:40.305390+00:00"
     },
     "https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.386102+00:00"
+      "checked_at": "2026-09-22T09:58:40.364342+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egfan/mobile/index.m3u8?token=TDTCh4nnelsES": {
-      "width": 1920,
-      "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.998150+00:00"
+      "width": 1280,
+      "height": 720,
+      "checked_at": "2026-09-22T09:58:40.867342+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egfanweb/index.m3u8?token=TDTCh4nnelsES": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:25.998675+00:00"
+      "checked_at": "2026-09-22T09:58:40.867202+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.079675+00:00"
+      "checked_at": "2026-09-22T09:58:40.867835+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.080787+00:00"
+      "checked_at": "2026-09-22T09:58:40.866659+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egretro/mobile/index.m3u8?token=TDTCh4nnelsES": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.088150+00:00"
+      "checked_at": "2026-09-22T09:58:40.875428+00:00"
     },
     "https://cl-2.backend.energeek.cl/bkp/egretroweb/index.m3u8?token=TDTCh4nnelsES": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.080220+00:00"
+      "checked_at": "2026-09-22T09:58:40.874229+00:00"
     },
     "https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.626814+00:00"
+      "checked_at": "2026-09-22T09:58:40.530440+00:00"
     },
     "https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.948927+00:00"
+      "checked_at": "2026-09-22T09:58:40.598036+00:00"
     },
     "https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:25.947016+00:00"
+      "checked_at": "2026-09-22T09:58:40.596980+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8004/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.332727+00:00"
+      "checked_at": "2026-09-22T09:58:40.865585+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8022/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.338529+00:00"
+      "checked_at": "2026-09-22T09:58:40.888833+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8024/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.321579+00:00"
+      "checked_at": "2026-09-22T09:58:40.874111+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8028/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.341217+00:00"
+      "checked_at": "2026-09-22T09:58:40.878425+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8032/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-18T09:47:03.557469+00:00"
+      "checked_at": "2026-09-22T09:58:40.867976+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8034/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.546851+00:00"
+      "checked_at": "2026-09-22T09:58:40.880798+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8108/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.559568+00:00"
+      "checked_at": "2026-09-22T09:58:40.869435+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8116/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.562203+00:00"
+      "checked_at": "2026-09-22T09:58:40.984547+00:00"
     },
     "https://cloudvideo.servers10.com:8081/8130/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.550988+00:00"
+      "checked_at": "2026-09-22T09:58:40.982165+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.192566+00:00"
+      "checked_at": "2026-09-22T09:58:41.055626+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2038274/canal1/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.263706+00:00"
+      "checked_at": "2026-09-22T09:58:41.045348+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2038275/canal2/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.254074+00:00"
+      "checked_at": "2026-09-22T09:58:40.979359+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2038276/canal3/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.250662+00:00"
+      "checked_at": "2026-09-22T09:58:41.063731+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2038277/canal4/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.569485+00:00"
+      "checked_at": "2026-09-22T09:58:41.051730+00:00"
     },
     "https://congresodirecto.akamaized.net/hls/live/2038278/canal5/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:26.265311+00:00"
+      "checked_at": "2026-09-22T09:58:41.029879+00:00"
     },
     "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.570245+00:00"
+      "checked_at": "2026-09-22T09:58:41.289068+00:00"
     },
     "https://copaco.desdeparaguay.net/venusmedia/venusmedia_alt/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.774769+00:00"
+      "checked_at": "2026-09-22T09:58:41.224122+00:00"
     },
     "https://cope-religion-video.flumotion.com/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.860186+00:00"
+      "checked_at": "2026-09-22T09:58:41.487510+00:00"
     },
     "https://crmlive.redctnet.es/liveedge/ConsejoGob/playlist.m3u8": {
       "width": 1920,
@@ -514,157 +514,157 @@
     "https://crtvg-europa.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.611850+00:00"
+      "checked_at": "2026-09-22T09:58:41.276831+00:00"
     },
     "https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.607814+00:00"
+      "checked_at": "2026-09-22T09:58:41.279598+00:00"
     },
     "https://crtvg-events1.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.675095+00:00"
+      "checked_at": "2026-09-22T09:58:41.160462+00:00"
     },
     "https://crtvg-events2.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.633079+00:00"
+      "checked_at": "2026-09-22T09:58:41.204791+00:00"
     },
     "https://crtvg-events3.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.675624+00:00"
+      "checked_at": "2026-09-22T09:58:41.270743+00:00"
     },
     "https://crtvg-events4.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.568926+00:00"
+      "checked_at": "2026-09-22T09:58:41.118424+00:00"
     },
     "https://crtvg-tvg2.flumotion.cloud/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.728227+00:00"
+      "checked_at": "2026-09-22T09:58:41.212497+00:00"
     },
     "https://d12e4o88jd8gex.cloudfront.net/out/v1/cea3de0b76ac4e82ab8ee0fd3f17ce12/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.831413+00:00"
+      "checked_at": "2026-09-22T09:58:41.109349+00:00"
     },
     "https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.437219+00:00"
+      "checked_at": "2026-09-22T09:58:41.697396+00:00"
     },
     "https://d1chghleocc9sm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-evfku205gqrtf/Live.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:27.096528+00:00"
+      "checked_at": "2026-09-22T09:58:41.380087+00:00"
     },
     "https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.799753+00:00"
+      "checked_at": "2026-09-22T09:58:41.228549+00:00"
     },
     "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.845744+00:00"
+      "checked_at": "2026-09-22T09:58:41.336196+00:00"
     },
     "https://d2epgk1fomaa1g.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-9n8y4tw0bk3an/live/fast-channel-el-pais/fast-channel-el-pais.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.270329+00:00"
+      "checked_at": "2026-09-22T09:58:41.583661+00:00"
     },
     "https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.746990+00:00"
+      "checked_at": "2026-09-22T09:58:41.189517+00:00"
     },
     "https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:27.105569+00:00"
+      "checked_at": "2026-09-22T09:58:41.463705+00:00"
     },
     "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/master.m3u8": {
       "width": 1272,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.974838+00:00"
+      "checked_at": "2026-09-22T09:58:41.428446+00:00"
     },
     "https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch02/_definst_/smil:ch-02.smil/master.m3u8": {
       "width": 720,
       "height": 1280,
-      "checked_at": "2026-09-21T10:45:27.114030+00:00"
+      "checked_at": "2026-09-22T09:58:41.428735+00:00"
     },
     "https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.996099+00:00"
+      "checked_at": "2026-09-22T09:58:41.270894+00:00"
     },
     "https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:26.850465+00:00"
+      "checked_at": "2026-09-22T09:58:41.326335+00:00"
     },
     "https://d2ymuyhevki1a1.cloudfront.net/wct-ddd2992e-86fc-4611-a491-7f392259e9ba/continuous/9be76611-d2cd-474d-bf19-ef702ba31b02/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:26.711994+00:00"
+      "checked_at": "2026-09-22T09:58:41.245707+00:00"
     },
     "https://daserste-live.ard-mcdn.de/daserste/live/hls/int/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.375896+00:00"
+      "checked_at": "2026-09-22T09:58:41.852222+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S27134503/0f9AhuwKlhnZ/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.862218+00:00"
+      "checked_at": "2026-09-22T09:58:41.830195+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.864058+00:00"
+      "checked_at": "2026-09-22T09:58:41.860371+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.865323+00:00"
+      "checked_at": "2026-09-22T09:58:41.849125+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.864534+00:00"
+      "checked_at": "2026-09-22T09:58:41.877556+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S75007890/MUGHuxc9dQ3b/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.855028+00:00"
+      "checked_at": "2026-09-22T09:58:41.885428+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.863113+00:00"
+      "checked_at": "2026-09-22T09:58:41.850982+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S8448465/zTYa1Z5Op9ue/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.854294+00:00"
+      "checked_at": "2026-09-22T09:58:41.904110+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.863601+00:00"
+      "checked_at": "2026-09-22T09:58:41.863300+00:00"
     },
     "https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.852519+00:00"
+      "checked_at": "2026-09-22T09:58:41.875608+00:00"
     },
     "https://dfk2a268yviz9.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ddiii1m6jt6of/CanalSurAndaluciaES.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.330200+00:00"
+      "checked_at": "2026-09-22T09:58:41.609105+00:00"
     },
     "https://directes-tv-cat.3catdirectes.cat/live-content/beauties-hls/master.m3u8": {
       "width": 1920,
@@ -819,22 +819,22 @@
     "https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.093525+00:00"
+      "checked_at": "2026-09-22T09:58:42.217050+00:00"
     },
     "https://directes-tv-int.3catdirectes.cat/live-content/bondia-hls/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.095773+00:00"
+      "checked_at": "2026-09-22T09:58:42.219573+00:00"
     },
     "https://directes-tv-int.3catdirectes.cat/live-content/canal324-hls/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.094460+00:00"
+      "checked_at": "2026-09-22T09:58:42.218065+00:00"
     },
     "https://directes-tv-int.3catdirectes.cat/live-origin/canal324-hls/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.094656+00:00"
+      "checked_at": "2026-09-22T09:58:42.218542+00:00"
     },
     "https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8": {
       "width": 1920,
@@ -844,287 +844,287 @@
     "https://directes3-tv-int.3catdirectes.cat/live-content/tvi-hls/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.637023+00:00"
+      "checked_at": "2026-09-22T09:58:42.110617+00:00"
     },
     "https://dqco14bu26p3z.cloudfront.net/30505/89006005/hls/master.m3u8?ads.xumo_channelId=89006005&ads.xumo_streamId=89006005": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.315922+00:00"
+      "checked_at": "2026-09-22T09:58:42.492418+00:00"
     },
     "https://ds2c506obo7m8.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-7zjq3tdqasbg8/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.377767+00:00"
+      "checked_at": "2026-09-22T09:58:42.226036+00:00"
     },
     "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:27.998396+00:00"
+      "checked_at": "2026-09-22T09:58:42.145920+00:00"
     },
     "https://dwamdstream104.akamaized.net/hls/live/2015530/dwstream104/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.352078+00:00"
+      "checked_at": "2026-09-22T09:58:42.151317+00:00"
     },
     "https://edge-nodo-002.streaming.hitcloser.net/eltorotv-streaming-web/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.528808+00:00"
+      "checked_at": "2026-09-22T09:58:42.524920+00:00"
     },
     "https://english-livebkali.cgtn.com/live/doccgtn.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.532190+00:00"
+      "checked_at": "2026-09-22T09:58:42.878058+00:00"
     },
     "https://english-livebkali.cgtn.com/live/encgtn.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.469841+00:00"
+      "checked_at": "2026-09-22T09:58:42.873233+00:00"
     },
     "https://eu1.servers10.com:8081/8034/index.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:28.722986+00:00"
+      "checked_at": "2026-09-22T09:58:42.752841+00:00"
     },
     "https://eu1.servers10.com:8081/8116/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:28.711665+00:00"
+      "checked_at": "2026-09-22T09:58:42.763804+00:00"
     },
     "https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:28.232822+00:00"
+      "checked_at": "2026-09-22T09:58:42.368171+00:00"
     },
     "https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.796638+00:00"
+      "checked_at": "2026-09-22T09:58:42.903594+00:00"
     },
     "https://fast-tailor.3catdirectes.cat/v1/channel/doraemon/hls.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.851654+00:00"
+      "checked_at": "2026-09-22T09:58:43.046538+00:00"
     },
     "https://fast-tailor.3catdirectes.cat/v1/channel/joc-de-cartes/hls.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.052141+00:00"
+      "checked_at": "2026-09-22T09:58:43.016609+00:00"
     },
     "https://fast-tailor.3catdirectes.cat/v1/channel/vinagreta/hls.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.989220+00:00"
+      "checked_at": "2026-09-22T09:58:42.963135+00:00"
     },
     "https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/6057955885001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZWFxNWh4LmVncmVzcy53YzQ3bTEiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTg4NTAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1ODg1MDAxIl0sImp0aSI6IjE4NDY3NTY0Nzk0MDgzMDMwNDUifQ.o6wb_VA-TVxl3ERgr7FKLlaTjY7smErmsf73QAydySE/playlist-hls-dvr.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.343599+00:00"
+      "checked_at": "2026-09-22T09:58:42.434334+00:00"
     },
     "https://feeds.intoday.in/aajtak/api/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:29.240208+00:00"
+      "checked_at": "2026-09-22T09:58:42.305308+00:00"
     },
     "https://flu-01.hucame.es/TG7/index.fmp4.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.002028+00:00"
+      "checked_at": "2026-09-22T09:58:42.767052+00:00"
     },
     "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:28.701163+00:00"
+      "checked_at": "2026-09-22T09:58:42.465697+00:00"
     },
     "https://ftv1.b-cdn.net/bfdbb576-83f7-11f0-9f89-0200170e3e04_1000028043_HLS/manifest.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.596973+00:00"
+      "checked_at": "2026-09-22T09:58:42.388377+00:00"
     },
     "https://globallive.tdm.com.mo/ch1/ch1.live/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.361307+00:00"
+      "checked_at": "2026-09-22T09:58:44.019421+00:00"
     },
     "https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.518550+00:00"
+      "checked_at": "2026-09-22T09:58:44.111624+00:00"
     },
     "https://globallive.tdm.com.mo/ch3/ch3.live/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.415285+00:00"
+      "checked_at": "2026-09-22T09:58:44.028304+00:00"
     },
     "https://hls.livecdn.io/cheddar.com/cheddar/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.137220+00:00"
+      "checked_at": "2026-09-22T09:58:42.416739+00:00"
     },
     "https://hola-play-2108fd06-86d4-44e8-9867-c35b4895a1c1-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6433/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.827715+00:00"
+      "checked_at": "2026-09-22T09:58:42.646124+00:00"
     },
     "https://hr-live.ard-mcdn.de/hr/live/hls/de/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:29.676825+00:00"
+      "checked_at": "2026-09-22T09:58:43.159945+00:00"
     },
     "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:28.914639+00:00"
+      "checked_at": "2026-09-22T09:58:43.217909+00:00"
     },
     "https://ingest1-video.streaming-pro.com/canaltaronja/anoia/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.998845+00:00"
+      "checked_at": "2026-09-22T09:58:43.275300+00:00"
     },
     "https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.006294+00:00"
+      "checked_at": "2026-09-22T09:58:43.274226+00:00"
     },
     "https://ingest1-video.streaming-pro.com/canaltaronja/osona/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.015949+00:00"
+      "checked_at": "2026-09-22T09:58:43.273202+00:00"
     },
     "https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.004562+00:00"
+      "checked_at": "2026-09-22T09:58:43.285735+00:00"
     },
     "https://ingest1-video.streaming-pro.com/tac12_ABR/stream/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.005223+00:00"
+      "checked_at": "2026-09-22T09:58:43.277213+00:00"
     },
     "https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.786499+00:00"
+      "checked_at": "2026-09-22T09:58:43.477724+00:00"
     },
     "https://ingest2-video.streaming-pro.com/creus/stream/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.822280+00:00"
+      "checked_at": "2026-09-22T09:58:43.475160+00:00"
     },
     "https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:29.820882+00:00"
+      "checked_at": "2026-09-22T09:58:43.466253+00:00"
     },
     "https://ingest2-video.streaming-pro.com/votv/streaming_web/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.823564+00:00"
+      "checked_at": "2026-09-22T09:58:43.461272+00:00"
     },
     "https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:28.926372+00:00"
+      "checked_at": "2026-09-22T09:58:42.807849+00:00"
     },
     "https://install.akctvcontrol.com/speed/broadcast/141/desktop-playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.065589+00:00"
+      "checked_at": "2026-09-22T09:58:42.805708+00:00"
     },
     "https://k20.usastreams.com:8081/tenerifeplus/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.127757+00:00"
+      "checked_at": "2026-09-22T09:58:42.907448+00:00"
     },
     "https://laregionlive.flumotion.cloud/laregionlive/smil:channel1.smil/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.239617+00:00"
+      "checked_at": "2026-09-22T09:58:42.971900+00:00"
     },
     "https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:29.443133+00:00"
+      "checked_at": "2026-09-22T09:58:43.042817+00:00"
     },
     "https://live-24-canalsur.interactvty.pro/9bb0f4edcb8946e79f5017ddca6c02b0/74cdbd1b401a7598ab8f3e9b5652c9909daa60dd4f6f96f28396a3f1cfd926f2.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:29.481648+00:00"
+      "checked_at": "2026-09-22T09:58:43.162467+00:00"
     },
     "https://live-cdn-stream-euw1.bfmtv.bct.nextradiotv.com/master.m3u8": {
       "width": 960,
       "height": 540,
-      "checked_at": "2026-09-21T10:45:29.809721+00:00"
+      "checked_at": "2026-09-22T09:58:43.267567+00:00"
     },
     "https://live-hls-web-aja.getaj.net/AJA/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.050066+00:00"
+      "checked_at": "2026-09-22T09:58:43.500276+00:00"
     },
     "https://live-hls-web-aje-gcp.thehlive.com/AJE/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:29.873550+00:00"
+      "checked_at": "2026-09-22T09:58:43.543397+00:00"
     },
     "https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.169743+00:00"
+      "checked_at": "2026-09-22T09:58:43.403093+00:00"
     },
     "https://live.atlanticotelevision.com/hls/hi/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.400420+00:00"
+      "checked_at": "2026-09-22T09:58:43.555250+00:00"
     },
     "https://live.gideo.video/americateve2/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.038706+00:00"
+      "checked_at": "2026-09-22T09:58:43.461467+00:00"
     },
     "https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:30.089053+00:00"
+      "checked_at": "2026-09-22T09:58:43.605382+00:00"
     },
     "https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:30.084650+00:00"
+      "checked_at": "2026-09-22T09:58:43.611225+00:00"
     },
     "https://livecdn.enlace.plus/enlace/smil:enlace-hd.smil/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.059303+00:00"
+      "checked_at": "2026-09-22T09:58:49.941545+00:00"
     },
     "https://livesg1.rtva.hiway.media/11a6d6f4-ee13-47c7-9c27-7313cf5424e2/manifest.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.849130+00:00"
+      "checked_at": "2026-09-22T09:58:43.748978+00:00"
     },
     "https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlists.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.067763+00:00"
+      "checked_at": "2026-09-22T09:58:44.655322+00:00"
     },
     "https://luna-4-video.mediaserver.digital/exitosatv_233b-4b49-a726-5a451262/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:30.624227+00:00"
+      "checked_at": "2026-09-22T09:58:43.777396+00:00"
     },
     "https://m2b2.worldcast.tv:7443/dancetelevisionfive/2/dancetelevisionfive.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.114764+00:00"
+      "checked_at": "2026-09-22T09:58:44.295535+00:00"
     },
     "https://m2b2.worldcast.tv:7443/dancetelevisionfour/2/dancetelevisionfour.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.111737+00:00"
+      "checked_at": "2026-09-22T09:58:44.283304+00:00"
     },
     "https://m2b2.worldcast.tv:7443/dancetelevisionthree/2/dancetelevisionthree.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.111994+00:00"
+      "checked_at": "2026-09-22T09:58:44.300012+00:00"
     },
     "https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8": {
       "width": 1920,
@@ -1134,22 +1134,22 @@
     "https://mbit1.worldcast.tv:9443/dancetelevisioneight/multibit.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.256780+00:00"
+      "checked_at": "2026-09-22T09:58:44.295895+00:00"
     },
     "https://mbit1.worldcast.tv:9443/dancetelevisionnine/multibit.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.285904+00:00"
+      "checked_at": "2026-09-22T09:58:44.300724+00:00"
     },
     "https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:30.692954+00:00"
+      "checked_at": "2026-09-22T09:58:43.859817+00:00"
     },
     "https://mcdn.br.de/br/fs/bfs_sued/hls/int/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.655030+00:00"
+      "checked_at": "2026-09-22T09:58:44.458683+00:00"
     },
     "https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8": {
       "width": 1280,
@@ -1159,92 +1159,92 @@
     "https://mdstrm.com/live-stream-playlist/5a7b1e63a8da282c34d65445.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:30.731062+00:00"
+      "checked_at": "2026-09-22T09:58:43.933754+00:00"
     },
     "https://mdstrm.com/live-stream-playlist/60b578b060947317de7b57ac.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.558811+00:00"
+      "checked_at": "2026-09-22T09:58:44.733299+00:00"
     },
     "https://media-tyo.hls.nhkworld.jp/hls/w/live/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.176310+00:00"
+      "checked_at": "2026-09-22T09:58:44.220748+00:00"
     },
     "https://media2.streambrothers.com:1936/8140/8140/.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.837919+00:00"
+      "checked_at": "2026-09-22T09:58:44.461751+00:00"
     },
     "https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.127374+00:00"
+      "checked_at": "2026-09-22T09:58:44.739782+00:00"
     },
     "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8": {
       "width": 3840,
       "height": 2160,
-      "checked_at": "2026-09-21T10:45:33.724851+00:00"
+      "checked_at": "2026-09-22T09:58:45.708538+00:00"
     },
     "https://ndrint.akamaized.net/hls/live/2020766/ndr_int/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.600058+00:00"
+      "checked_at": "2026-09-22T09:58:44.371583+00:00"
     },
     "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.461541+00:00"
+      "checked_at": "2026-09-22T09:58:44.084382+00:00"
     },
     "https://negociostv-negociostv-samsunges.amagi.tv/hls/amagi_hls_data_negociost-negociostv-samsunges/CDN/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.477706+00:00"
+      "checked_at": "2026-09-22T09:58:44.286038+00:00"
     },
     "https://nimble.tuyapro.es/app/tv/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:31.666028+00:00"
+      "checked_at": "2026-09-22T09:58:44.400082+00:00"
     },
     "https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.309716+00:00"
+      "checked_at": "2026-09-22T09:58:44.645400+00:00"
     },
     "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:31.453656+00:00"
+      "checked_at": "2026-09-22T09:58:44.435902+00:00"
     },
     "https://nrvideo1.newradio.it:443/calimafm/calimafm/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:32.337711+00:00"
+      "checked_at": "2026-09-22T09:58:44.904137+00:00"
     },
     "https://ondacadiztv.es:30443/octv/24h/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.497943+00:00"
+      "checked_at": "2026-09-22T09:58:45.013635+00:00"
     },
     "https://ondacadiztv.es:30443/octv/directo_multi/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:32.510974+00:00"
+      "checked_at": "2026-09-22T09:58:45.022974+00:00"
     },
     "https://origin-001.streamup.eu/sportitalia/sihd_abr2/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.066873+00:00"
+      "checked_at": "2026-09-22T09:58:44.652112+00:00"
     },
     "https://origin-001.streamup.eu/sportitalia/silive24_abr/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.018489+00:00"
+      "checked_at": "2026-09-22T09:58:44.591300+00:00"
     },
     "https://origin-001.streamup.eu/sportitalia/sisolocalcio_abr/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.302156+00:00"
+      "checked_at": "2026-09-22T09:58:44.590514+00:00"
     },
     "https://ott.tv5monde.com/Content/HLS/Live/channel(europe)/variant.m3u8": {
       "width": 1920,
@@ -1254,372 +1254,372 @@
     "https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:32.400015+00:00"
+      "checked_at": "2026-09-22T09:58:44.776500+00:00"
     },
     "https://partneta.cdn.mgmlcdn.com/omantv/smil:omantv.stream.smil/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.077524+00:00"
+      "checked_at": "2026-09-22T09:58:44.601041+00:00"
     },
     "https://pgalicia-live.akamaized.net/hls/live/2040697/pleno/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:32.606652+00:00"
+      "checked_at": "2026-09-22T09:58:44.936750+00:00"
     },
     "https://play.agenciastreaming.com:8081/futsalmafertv/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.582359+00:00"
+      "checked_at": "2026-09-22T09:58:44.946334+00:00"
     },
     "https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.853664+00:00"
+      "checked_at": "2026-09-22T09:58:45.008799+00:00"
     },
     "https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8": {
       "width": 720,
       "height": 576,
-      "checked_at": "2026-09-21T10:45:32.874597+00:00"
+      "checked_at": "2026-09-22T09:58:44.979587+00:00"
     },
     "https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:41.341906+00:00"
+      "checked_at": "2026-09-22T09:58:54.226524+00:00"
     },
     "https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8": {
       "width": 960,
       "height": 540,
-      "checked_at": "2026-09-21T10:45:35.922528+00:00"
+      "checked_at": "2026-09-22T09:58:45.674436+00:00"
     },
     "https://pubads.g.doubleclick.net/ssai/event/OQfdjUhHSDSlb1fJVzehsQ/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:32.716979+00:00"
+      "checked_at": "2026-09-22T09:58:45.078007+00:00"
     },
     "https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8": {
       "width": 1024,
       "height": 576,
-      "checked_at": "2026-09-21T10:45:32.535432+00:00"
+      "checked_at": "2026-09-22T09:58:44.770636+00:00"
     },
     "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.355696+00:00"
+      "checked_at": "2026-09-22T09:58:44.759411+00:00"
     },
     "https://rbmn-live.akamaized.net/hls/live/665268/Wetterpanorama/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.011334+00:00"
+      "checked_at": "2026-09-22T09:58:45.006677+00:00"
     },
     "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.561072+00:00"
+      "checked_at": "2026-09-22T09:58:45.318795+00:00"
     },
     "https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latinanoticias/latinanoticias.smil/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.545905+00:00"
+      "checked_at": "2026-09-22T09:58:45.086569+00:00"
     },
     "https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.360430+00:00"
+      "checked_at": "2026-09-22T09:58:44.962720+00:00"
     },
     "https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.980672+00:00"
+      "checked_at": "2026-09-22T09:58:45.111501+00:00"
     },
     "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.068340+00:00"
+      "checked_at": "2026-09-22T09:58:44.890157+00:00"
     },
     "https://rmtv.akamaized.net/hls/live/2043154/rmtv-en-web/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.053753+00:00"
+      "checked_at": "2026-09-22T09:58:45.190844+00:00"
     },
     "https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:32.889816+00:00"
+      "checked_at": "2026-09-22T09:58:45.205193+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm11_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.130349+00:00"
+      "checked_at": "2026-09-22T09:58:45.301524+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm1_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.210731+00:00"
+      "checked_at": "2026-09-22T09:58:45.302194+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm20_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.219785+00:00"
+      "checked_at": "2026-09-22T09:58:45.302024+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm21_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.220542+00:00"
+      "checked_at": "2026-09-22T09:58:45.305050+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm26_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.233765+00:00"
+      "checked_at": "2026-09-22T09:58:45.323688+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm27_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.286687+00:00"
+      "checked_at": "2026-09-22T09:58:45.322314+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm5_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.348882+00:00"
+      "checked_at": "2026-09-22T09:58:45.331935+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm6_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.368080+00:00"
+      "checked_at": "2026-09-22T09:58:45.340500+00:00"
     },
     "https://rtvelivestream.rtve.es/eventual/gofast/playm7_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.381965+00:00"
+      "checked_at": "2026-09-22T09:58:45.393193+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/24h/24h_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.400929+00:00"
+      "checked_at": "2026-09-22T09:58:45.395073+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/can/24h_can_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.467840+00:00"
+      "checked_at": "2026-09-22T09:58:45.398257+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/can/la1_can_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.501657+00:00"
+      "checked_at": "2026-09-22T09:58:45.425155+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/can/la2_can_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.545183+00:00"
+      "checked_at": "2026-09-22T09:58:45.464271+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/cat/24h_cat_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.554629+00:00"
+      "checked_at": "2026-09-22T09:58:45.501374+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/cat/la1_cat_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.621988+00:00"
+      "checked_at": "2026-09-22T09:58:45.522753+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/cat/la2_cat_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.392488+00:00"
+      "checked_at": "2026-09-22T09:58:45.555226+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/clan/clan_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.708678+00:00"
+      "checked_at": "2026-09-22T09:58:45.617488+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/int/star_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.708985+00:00"
+      "checked_at": "2026-09-22T09:58:45.625293+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/int/tvei_asia_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.723708+00:00"
+      "checked_at": "2026-09-22T09:58:45.616476+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/int/tvei_eu_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.778064+00:00"
+      "checked_at": "2026-09-22T09:58:45.625915+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/la1/la1_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.373337+00:00"
+      "checked_at": "2026-09-22T09:58:45.749242+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.385794+00:00"
+      "checked_at": "2026-09-22T09:58:45.634566+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/rne/rne_para_todos_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.857358+00:00"
+      "checked_at": "2026-09-22T09:58:45.495886+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/rne/rne_r4_cam_main_dvr.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.863316+00:00"
+      "checked_at": "2026-09-22T09:58:45.643857+00:00"
     },
     "https://rtvelivestream.rtve.es/rtvesec/tdp/tdp_main.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.868497+00:00"
+      "checked_at": "2026-09-22T09:58:45.670232+00:00"
     },
     "https://ruv-web-live.akamaized.net/streymi/ruverl/ruverl.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:33.618549+00:00"
+      "checked_at": "2026-09-22T09:58:45.540033+00:00"
     },
     "https://s.emisoras.tv:8081/chiclana/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.678612+00:00"
+      "checked_at": "2026-09-22T09:58:45.452533+00:00"
     },
     "https://s.emisoras.tv:8081/lajanda/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.681165+00:00"
+      "checked_at": "2026-09-22T09:58:45.452878+00:00"
     },
     "https://s.emisoras.tv:8081/sierradecadiz/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:33.755365+00:00"
+      "checked_at": "2026-09-22T09:58:45.473766+00:00"
     },
     "https://scl.edge.grupoz.cl/retroplustvuno/live/playlist.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.053737+00:00"
+      "checked_at": "2026-09-22T09:58:46.036698+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006551/punto1/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.183132+00:00"
+      "checked_at": "2026-09-22T09:58:46.007176+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006589/punto7/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.351735+00:00"
+      "checked_at": "2026-09-22T09:58:45.961509+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006590/punto8/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.197546+00:00"
+      "checked_at": "2026-09-22T09:58:45.868248+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006591/punto2/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.140705+00:00"
+      "checked_at": "2026-09-22T09:58:45.915406+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006592/punto3/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.169394+00:00"
+      "checked_at": "2026-09-22T09:58:45.959074+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006593/punto4/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.165378+00:00"
+      "checked_at": "2026-09-22T09:58:45.825340+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006594/punto5/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.184073+00:00"
+      "checked_at": "2026-09-22T09:58:45.826355+00:00"
     },
     "https://senadolive.akamaized.net/hls/live/2006595/punto6/master.m3u8": {
       "width": 640,
       "height": 360,
-      "checked_at": "2026-09-21T10:45:34.164044+00:00"
+      "checked_at": "2026-09-22T09:58:45.967026+00:00"
     },
     "https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-bmo0niz694whx.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.359904+00:00"
+      "checked_at": "2026-09-22T09:58:46.196516+00:00"
     },
     "https://srfs.akamaized.net/hls/live/689649/srfsgeo/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.192194+00:00"
+      "checked_at": "2026-09-22T09:58:45.916762+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?&network_id=12685&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.333194+00:00"
+      "checked_at": "2026-09-22T09:58:46.281626+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16113&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&app_domain=mirametv.live&app_category=linear_tv&ssai_enabled=1&content_cat=IAB1&content_channel=televigo&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=[CONTENT_ID]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.386601+00:00"
+      "checked_at": "2026-09-22T09:58:46.034470+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16114&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.483680+00:00"
+      "checked_at": "2026-09-22T09:58:46.033786+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16126&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=12tv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=mirametv_live": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.520590+00:00"
+      "checked_at": "2026-09-22T09:58:46.066403+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16147&live=1&avod=0&hls_marker=1&pod_duration=120&ssai_enabled=1&content_network=streamingconnect&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&app_domain=mirametv.live&content_cat=IAB1&content_channel=tvflorida&content_genre=tv_broadcaster&content_rating=TV-G&content_id=mirametv_live&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&min_ad_duration=6&max_ad_duration=120&ifa_type=[IFA_TYPE]": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.263086+00:00"
+      "checked_at": "2026-09-22T09:58:46.006731+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16184&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=cumbiatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live": {
-      "width": 1920,
-      "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.217397+00:00"
-    },
-    "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16185&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=salsatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.442311+00:00"
+      "checked_at": "2026-09-22T09:58:45.887226+00:00"
+    },
+    "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16185&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_channel=salsatv&content_cat=IAB14&content_genre=tv_broadcaster&content_id=mirametv_live&content_network=streamingconnect&content_rating=TV-G&ssai_enabled=1&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live": {
+      "width": 1920,
+      "height": 1080,
+      "checked_at": "2026-09-22T09:58:45.884698+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16284&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live&ua=[%UA%]&device_type=[DEVICE_TYPE]&min_ad_duration=6&max_ad_duration=120&ip=[IP]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-20T09:49:37.728065+00:00"
+      "checked_at": "2026-09-22T09:58:45.888393+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16285&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live&ua=[%25UA%25]&device_type=[DEVICE_TYPE]&min_ad_duration=6&max_ad_duration=120&ip=[IP]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-20T09:49:37.724393+00:00"
+      "checked_at": "2026-09-22T09:58:46.002605+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16427&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=mirametv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&gdpr=[GDPR]&content_id=mirametv_live&device_type=[DEVICE_TYPE]&ip=[IP]&min_ad_duration=6&max_ad_duration=120&ua=[UA]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.546991+00:00"
+      "checked_at": "2026-09-22T09:58:46.201376+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12686&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.792531+00:00"
+      "checked_at": "2026-09-22T09:58:46.112884+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12688&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.495771+00:00"
+      "checked_at": "2026-09-22T09:58:46.046808+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.512657+00:00"
+      "checked_at": "2026-09-22T09:58:46.049069+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12690&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.494990+00:00"
+      "checked_at": "2026-09-22T09:58:45.996127+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.840414+00:00"
+      "checked_at": "2026-09-22T09:58:46.372451+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13354&live=1": {
       "width": 1280,
@@ -1629,87 +1629,87 @@
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=13696&live=1": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.590089+00:00"
+      "checked_at": "2026-09-22T09:58:46.045126+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16818&live=1&avod=1&cb=[CACHEBUSTER]&site_page=https%3A%2F%2Ftdtchannels.com&site_name=tdtchannels&hls_marker=1&content_cat=IAB1&content_genre=Entertainment&content_id=Estutele&content_language=es&content_rating=TV-G&content_title=Estutele&coppa=0&ssai_enabled=1": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.595470+00:00"
+      "checked_at": "2026-09-22T09:58:46.075157+00:00"
     },
     "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=17089&live=1": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:34.522672+00:00"
+      "checked_at": "2026-09-22T09:58:46.048864+00:00"
     },
     "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15601&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.894618+00:00"
+      "checked_at": "2026-09-22T09:58:46.152471+00:00"
     },
     "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15618": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.688939+00:00"
+      "checked_at": "2026-09-22T09:58:46.205819+00:00"
     },
     "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15619&avod=1&coppa=0&td=6&is_lat=[LMT]&dnt=[DNS]&us_privacy=[US_PRIVACY]&did=[DEVICE_ID]&ip=[IP]&ua=[UA]&ifa_type=[IFA_TYPE]&app_bundle=[APP_BUNDLE]": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.692102+00:00"
+      "checked_at": "2026-09-22T09:58:46.224122+00:00"
     },
     "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15620": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.689459+00:00"
+      "checked_at": "2026-09-22T09:58:46.198837+00:00"
     },
     "https://stream.ads.ottera.tv/playlist.m3u8?network_id=15621": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.982380+00:00"
+      "checked_at": "2026-09-22T09:58:46.255810+00:00"
     },
     "https://stream.burrianateve.com:8443/hls/abr_burrianateve/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.278274+00:00"
+      "checked_at": "2026-09-22T09:58:46.611817+00:00"
     },
     "https://stream.mediawork.cz/retrotv/retrotvHQ1/playlist.m3u8": {
       "width": 1024,
       "height": 576,
-      "checked_at": "2026-09-21T10:45:35.367021+00:00"
+      "checked_at": "2026-09-22T09:58:46.684261+00:00"
     },
     "https://stream.ontvmx.com/ontv/ghxTYEQmKkB2UJyVuW/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.780203+00:00"
+      "checked_at": "2026-09-22T09:58:46.298031+00:00"
     },
     "https://stream.qmusic.nl/qmusic/videohls.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:35.623408+00:00"
+      "checked_at": "2026-09-22T09:58:46.809131+00:00"
     },
     "https://stream.rdstv.radio/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:34.896573+00:00"
+      "checked_at": "2026-09-22T09:58:46.453659+00:00"
     },
     "https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.782599+00:00"
+      "checked_at": "2026-09-22T09:58:46.919174+00:00"
     },
     "https://stream2.parlamentodeandalucia.es/realizacion2/realizacion2/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.289407+00:00"
+      "checked_at": "2026-09-22T09:58:46.609197+00:00"
     },
     "https://stream2.parlamentodeandalucia.es/realizacion3/realizacion3/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.289678+00:00"
+      "checked_at": "2026-09-22T09:58:46.609594+00:00"
     },
     "https://stream2.parlamentodeandalucia.es/realizacion4/realizacion4/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.280431+00:00"
+      "checked_at": "2026-09-22T09:58:46.610077+00:00"
     },
     "https://streamer.zapitv.com/PTV-granada/index.m3u8": {
       "width": 1920,
@@ -1739,17 +1739,17 @@
     "https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:36.304246+00:00"
+      "checked_at": "2026-09-22T09:58:47.122994+00:00"
     },
     "https://streaming.mediacast.pro/live/xaloa/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:35.605917+00:00"
+      "checked_at": "2026-09-22T09:58:46.821368+00:00"
     },
     "https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8": {
-      "width": 1536,
-      "height": 864,
-      "checked_at": "2026-09-21T10:45:36.371959+00:00"
+      "width": 1920,
+      "height": 1080,
+      "checked_at": "2026-09-22T09:58:47.273268+00:00"
     },
     "https://streamlov.alsolnet.com/sajanansatv/live/playlist.m3u8": {
       "width": 1280,
@@ -1759,162 +1759,162 @@
     "https://streamtv.mediasector.es/hls/activatv/index.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.047001+00:00"
+      "checked_at": "2026-09-22T09:58:47.762163+00:00"
     },
     "https://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:37.701862+00:00"
+      "checked_at": "2026-09-22T09:58:48.111877+00:00"
     },
     "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:36.853912+00:00"
+      "checked_at": "2026-09-22T09:58:47.565392+00:00"
     },
     "https://telegranada.es/hls/stream.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:36.942297+00:00"
+      "checked_at": "2026-09-22T09:58:47.585417+00:00"
     },
     "https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:37.268669+00:00"
+      "checked_at": "2026-09-22T09:58:47.517697+00:00"
     },
     "https://tv-trthaber.medya.trt.com.tr/master.m3u8": {
       "width": 2560,
       "height": 1440,
-      "checked_at": "2026-09-21T10:45:36.807628+00:00"
+      "checked_at": "2026-09-22T09:58:47.679927+00:00"
     },
     "https://tv-trtworld.medya.trt.com.tr/master.m3u8": {
       "width": 2560,
       "height": 1440,
-      "checked_at": "2026-09-21T10:45:36.768528+00:00"
+      "checked_at": "2026-09-22T09:58:47.605833+00:00"
     },
     "https://vg-republictvlive.akamaized.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/vglive-sk-366023/main.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:37.257845+00:00"
+      "checked_at": "2026-09-22T09:58:47.937447+00:00"
     },
     "https://video.telesafor.com/hls/video.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.199744+00:00"
+      "checked_at": "2026-09-22T09:58:47.897100+00:00"
     },
     "https://vivo.canaloncelive.tv/secureoncedos/oncedigital/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:37.113100+00:00"
+      "checked_at": "2026-09-22T09:58:47.730315+00:00"
     },
     "https://wdrfsww247.akamaized.net/hls/live/2009628/wdr_msl4_fs247ww/master.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.285474+00:00"
+      "checked_at": "2026-09-22T09:58:47.910658+00:00"
     },
     "https://wmserver.jgpa.es/live/_definst_/livestream2/playlist.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-18T09:47:11.551899+00:00"
+      "checked_at": "2026-09-22T09:58:48.317082+00:00"
     },
     "https://www.bloomberg.com/media-manifest/streams/eu.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.077151+00:00"
+      "checked_at": "2026-09-22T09:58:47.721795+00:00"
     },
     "https://www.bloomberg.com/media-manifest/streams/qt.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:37.013416+00:00"
+      "checked_at": "2026-09-22T09:58:47.755037+00:00"
     },
     "https://www.bloomberg.com/media-manifest/streams/us-event.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.074866+00:00"
+      "checked_at": "2026-09-22T09:58:47.763503+00:00"
     },
     "https://www.bloomberg.com/media-manifest/streams/us.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.075128+00:00"
+      "checked_at": "2026-09-22T09:58:47.785615+00:00"
     },
     "https://xuntalive.akamaized.net/hls/live/2032287/streamxunta/master.m3u8": {
       "width": 1920,
       "height": 1080,
-      "checked_at": "2026-09-21T10:45:38.024704+00:00"
+      "checked_at": "2026-09-22T09:58:48.247910+00:00"
     },
     "https://ztnr.rtve.es/ztnr/16464388.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.056332+00:00"
+      "checked_at": "2026-09-22T09:58:48.104044+00:00"
     },
     "https://ztnr.rtve.es/ztnr/16656232.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.054137+00:00"
+      "checked_at": "2026-09-22T09:58:48.102127+00:00"
     },
     "https://ztnr.rtve.es/ztnr/16720260.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.746189+00:00"
+      "checked_at": "2026-09-22T09:58:48.107640+00:00"
     },
     "https://ztnr.rtve.es/ztnr/16862827.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.067531+00:00"
+      "checked_at": "2026-09-22T09:58:48.117626+00:00"
     },
     "https://ztnr.rtve.es/ztnr/1694255.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.060797+00:00"
+      "checked_at": "2026-09-22T09:58:48.228771+00:00"
     },
     "https://ztnr.rtve.es/ztnr/17017351.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.079916+00:00"
+      "checked_at": "2026-09-22T09:58:48.158462+00:00"
     },
     "https://ztnr.rtve.es/ztnr/2472039.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.788793+00:00"
+      "checked_at": "2026-09-22T09:58:48.229484+00:00"
     },
     "https://ztnr.rtve.es/ztnr/4952053.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.713031+00:00"
+      "checked_at": "2026-09-22T09:58:48.535655+00:00"
     },
     "https://ztnr.rtve.es/ztnr/5466990.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.184275+00:00"
+      "checked_at": "2026-09-22T09:58:48.377525+00:00"
     },
     "https://ztnr.rtve.es/ztnr/5473142.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.411615+00:00"
+      "checked_at": "2026-09-22T09:58:48.575570+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6108696.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.241568+00:00"
+      "checked_at": "2026-09-22T09:58:48.571479+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6108703.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.938307+00:00"
+      "checked_at": "2026-09-22T09:58:48.730694+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6108704.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.943088+00:00"
+      "checked_at": "2026-09-22T09:58:48.712725+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6108720.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:37.779633+00:00"
+      "checked_at": "2026-09-22T09:58:48.411820+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6688753.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.081534+00:00"
+      "checked_at": "2026-09-22T09:58:48.362505+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6712402.m3u8": {
       "width": 1280,
@@ -1934,7 +1934,7 @@
     "https://ztnr.rtve.es/ztnr/6712411.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.684242+00:00"
+      "checked_at": "2026-09-22T09:58:48.745528+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6712426.m3u8": {
       "width": 1280,
@@ -1964,37 +1964,37 @@
     "https://ztnr.rtve.es/ztnr/6909843.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.860924+00:00"
+      "checked_at": "2026-09-22T09:58:48.985149+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6909845.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.616011+00:00"
+      "checked_at": "2026-09-22T09:58:48.994267+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6924117.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.678150+00:00"
+      "checked_at": "2026-09-22T09:58:49.046059+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6982891.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.630079+00:00"
+      "checked_at": "2026-09-22T09:58:49.039814+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6982917.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.938136+00:00"
+      "checked_at": "2026-09-22T09:58:48.976034+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6982918.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.697355+00:00"
+      "checked_at": "2026-09-22T09:58:49.028376+00:00"
     },
     "https://ztnr.rtve.es/ztnr/6982935.m3u8": {
       "width": 1280,
       "height": 720,
-      "checked_at": "2026-09-21T10:45:38.729164+00:00"
+      "checked_at": "2026-09-22T09:58:49.213505+00:00"
     }
   }
 }
