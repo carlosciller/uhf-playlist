@@ -367,7 +367,7 @@ https://streaming.cloud.innovasur.es/mmj/index.m3u8
 https://video3.lhdserver.es/cartayatv/live.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvm-cordoba-7ea829f2.png" group-title="Andalusia" tvg-name="TVM Córdoba" quality="FHD",TVM Córdoba · FHD
 https://d16pwlnz9msuji.cloudfront.net/wct-dad9c712-1c61-4a61-aeee-8be9f5c9e6e9/continuous/8fbfd2f5-30c2-4d48-a24e-73f5d35ba491/index.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telegranada-6b869db0.png" group-title="Andalusia" tvg-name="TeleGranada" quality="SD",TeleGranada · SD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telegranada-6b869db0.png" group-title="Andalusia" tvg-name="TeleGranada" quality="FHD",TeleGranada · FHD
 https://telegranada.es/hls/stream.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/huelva-conecta-c5f0f123.png" group-title="Andalusia" tvg-name="Huelva Conecta",Huelva Conecta
 https://servidor.islahostingla.com:3542/live/huelvaconecta3live.m3u8
