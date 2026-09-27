@@ -4,8 +4,16 @@ A UHF-friendly M3U8 playlist built from TDTChannels, with self-hosted logos and 
 
 ## Playlist URL
 
+Spain/full catalogue:
+
 ```text
 https://carlosciller.github.io/uhf-playlist/tv-uhf.m3u8
+```
+
+Overseas/Thailand-tested catalogue:
+
+```text
+https://carlosciller.github.io/uhf-playlist/tv-uhf-overseas.m3u8
 ```
 
 ## EPG
@@ -27,6 +35,13 @@ https://www.tdtchannels.com/epg/TV.xml.gz
 - Preserves adaptive HLS master playlists, allowing UHF to select the best rendition available for the connection and device.
 - Inspects advertised HLS resolutions, keeps the latest successful result, labels the maximum available quality, and places higher-resolution alternatives first when UHF groups equivalent channels.
 - Adds only public UHD/HDR streams whose advertised and decoded video properties have been checked.
+- Publishes a separate overseas playlist containing only streams that delivered an HLS media segment during the latest audit from Thailand. This avoids putting geo-blocked higher-resolution alternatives ahead of working international feeds.
+
+## Overseas limitations
+
+The overseas playlist improves reliability; it cannot remove broadcasters' territorial restrictions. A stream is included only after both its manifest and a media segment have been fetched from the audited network. Channels with no public feed available from Thailand are omitted instead of being shown as broken. The full Spain playlist remains unchanged.
+
+The location snapshot is stored in `overseas_access.json`. Run `python scripts/audit_overseas.py --label Thailand` from the target network, then rebuild and validate, to refresh it.
 
 ## UHD and HDR policy
 
