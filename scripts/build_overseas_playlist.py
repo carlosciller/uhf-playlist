@@ -13,8 +13,10 @@ ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 SOURCE_PATH = DOCS_DIR / "tv-uhf.m3u8"
 ACCESS_PATH = ROOT / "overseas_access.json"
-OUTPUT_PATH = DOCS_DIR / "tv-uhf-overseas.m3u8"
-STATUS_PATH = DOCS_DIR / "overseas-status.json"
+OUTPUT_PATH = DOCS_DIR / "tv-uhf-worldwide.m3u8"
+LEGACY_OUTPUT_PATH = DOCS_DIR / "tv-uhf-overseas.m3u8"
+STATUS_PATH = DOCS_DIR / "worldwide-status.json"
+LEGACY_STATUS_PATH = DOCS_DIR / "overseas-status.json"
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 
@@ -67,9 +69,9 @@ def main() -> None:
     output_lines = [source_lines[0]]
     for block in included:
         output_lines.extend(block)
-    OUTPUT_PATH.write_text(
-        "\n".join(output_lines).rstrip() + "\n", encoding="utf-8"
-    )
+    output_text = "\n".join(output_lines).rstrip() + "\n"
+    OUTPUT_PATH.write_text(output_text, encoding="utf-8")
+    LEGACY_OUTPUT_PATH.write_text(output_text, encoding="utf-8")
 
     quality_counts = {"UHD": 0, "FHD": 0, "HD": 0, "SD": 0, "unknown": 0}
     for block in included:
@@ -87,9 +89,9 @@ def main() -> None:
         "unique_channels": len({channel_key(block) for block in included}),
         "quality_profiles": quality_counts,
     }
-    STATUS_PATH.write_text(
-        json.dumps(status, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
-    )
+    status_text = json.dumps(status, ensure_ascii=False, indent=2) + "\n"
+    STATUS_PATH.write_text(status_text, encoding="utf-8")
+    LEGACY_STATUS_PATH.write_text(status_text, encoding="utf-8")
     print(json.dumps(status, ensure_ascii=False, indent=2))
 
 
