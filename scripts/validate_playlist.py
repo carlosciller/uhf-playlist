@@ -12,12 +12,55 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST_PATH = ROOT / "docs" / "tv-uhf.m3u8"
 STATUS_PATH = ROOT / "docs" / "status.json"
+OVERSEAS_PLAYLIST_PATH = ROOT / "docs" / "tv-uhf-overseas.m3u8"
+OVERSEAS_STATUS_PATH = ROOT / "docs" / "overseas-status.json"
+OVERSEAS_ACCESS_PATH = ROOT / "overseas_access.json"
 LOGO_PREFIX = "https://carlosciller.github.io/uhf-playlist/logos/"
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
 
 
 def fail(message: str) -> None:
     raise SystemExit(f"Playlist validation failed: {message}")
+
+
+def validate_overseas_playlist() -> tuple[int, int]:
+    lines = OVERSEAS_PLAYLIST_PATH.read_text(encoding="utf-8").splitlines()
+    if not lines or not lines[0].startswith("#EXTM3U "):
+        fail("overseas playlist is missing its extended M3U header")
+    access = json.loads(OVERSEAS_ACCESS_PATH.read_text(encoding="utf-8"))
+    tested_streams = access.get("streams", {})
+    status = json.loads(OVERSEAS_STATUS_PATH.read_text(encoding="utf-8"))
+    channel_keys: set[str] = set()
+    stream_count = 0
+    pending_channel = False
+    for line_number, line in enumerate(lines[1:], start=2):
+        if not line:
+            continue
+        if line.startswith("#EXTINF"):
+            if pending_channel:
+                fail(f"overseas channel at line {line_number - 1} has no stream URL")
+            attrs = dict(ATTRIBUTE_RE.findall(line))
+            display_name = line.rsplit(",", 1)[-1].strip()
+            channel_keys.add(attrs.get("tvg-id") or attrs.get("tvg-name") or display_name)
+            pending_channel = True
+            continue
+        if line.startswith("#"):
+            continue
+        if not pending_channel:
+            fail(f"orphan overseas stream URL at line {line_number}")
+        if not bool(tested_streams.get(line, {}).get("reachable")):
+            fail(f"untested or unreachable overseas stream at line {line_number}")
+        stream_count += 1
+        pending_channel = False
+    if pending_channel:
+        fail("last overseas channel has no stream URL")
+    if status.get("included_streams") != stream_count:
+        fail("overseas status stream count does not match")
+    if status.get("unique_channels") != len(channel_keys):
+        fail("overseas status channel count does not match")
+    if status.get("media_segment_tested") is not True:
+        fail("overseas status does not confirm media-segment testing")
+    return stream_count, len(channel_keys)
 
 
 def main() -> None:
@@ -109,9 +152,11 @@ def main() -> None:
     if status.get("logo_coverage_percent") != expected_coverage:
         fail("logo coverage does not match the generated playlist")
 
+    overseas_streams, overseas_channels = validate_overseas_playlist()
     print(
         f"Validated {channel_count} streams, {len(channel_keys)} channels, "
-        f"and {len(logo_urls)} self-hosted logos."
+        f"and {len(logo_urls)} self-hosted logos; overseas playlist has "
+        f"{overseas_streams} tested streams across {overseas_channels} channels."
     )
 
 
