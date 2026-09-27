@@ -12,8 +12,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST_PATH = ROOT / "docs" / "tv-uhf.m3u8"
 STATUS_PATH = ROOT / "docs" / "status.json"
-OVERSEAS_PLAYLIST_PATH = ROOT / "docs" / "tv-uhf-overseas.m3u8"
-OVERSEAS_STATUS_PATH = ROOT / "docs" / "overseas-status.json"
+OVERSEAS_PLAYLIST_PATH = ROOT / "docs" / "tv-uhf-worldwide.m3u8"
+OVERSEAS_STATUS_PATH = ROOT / "docs" / "worldwide-status.json"
+LEGACY_OVERSEAS_PLAYLIST_PATH = ROOT / "docs" / "tv-uhf-overseas.m3u8"
+LEGACY_OVERSEAS_STATUS_PATH = ROOT / "docs" / "overseas-status.json"
 OVERSEAS_ACCESS_PATH = ROOT / "overseas_access.json"
 LOGO_PREFIX = "https://carlosciller.github.io/uhf-playlist/logos/"
 ATTRIBUTE_RE = re.compile(r'([\w-]+)="([^"]*)"')
@@ -24,6 +26,10 @@ def fail(message: str) -> None:
 
 
 def validate_overseas_playlist() -> tuple[int, int]:
+    if OVERSEAS_PLAYLIST_PATH.read_bytes() != LEGACY_OVERSEAS_PLAYLIST_PATH.read_bytes():
+        fail("worldwide and legacy overseas playlists do not match")
+    if OVERSEAS_STATUS_PATH.read_bytes() != LEGACY_OVERSEAS_STATUS_PATH.read_bytes():
+        fail("worldwide and legacy overseas statuses do not match")
     lines = OVERSEAS_PLAYLIST_PATH.read_text(encoding="utf-8").splitlines()
     if not lines or not lines[0].startswith("#EXTM3U "):
         fail("overseas playlist is missing its extended M3U header")
