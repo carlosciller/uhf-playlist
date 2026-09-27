@@ -168,9 +168,9 @@ https://rtvelivestream.rtve.es/eventual/gofast/playm26_main.m3u8
 https://ztnr.rtve.es/ztnr/17017351.m3u8
 #EXTINF:-1 tvg-id="RTVE_En_Play.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-en-play-tv-ffe3005a.png" group-title="Event Channels" tvg-name="En Play (RTVE)" quality="HD",En Play (RTVE) · HD
 https://rtvelivestream.rtve.es/eventual/gofast/playm27_main.m3u8
-#EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup2-tv-1a0afac6.png" group-title="Event Channels" tvg-name="San Sebastián Fes (RTVE)" quality="HD",San Sebastián Fes (RTVE) · HD
+#EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup2-tv-1a0afac6.png" group-title="Event Channels" tvg-name="Festival de San Sebastián (RTVE)" quality="HD",Festival de San Sebastián (RTVE) · HD
 https://ztnr.rtve.es/ztnr/16720260.m3u8
-#EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup2-tv-1a0afac6.png" group-title="Event Channels" tvg-name="San Sebastián Fes (RTVE)" quality="HD",San Sebastián Fes (RTVE) · HD
+#EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup2-tv-1a0afac6.png" group-title="Event Channels" tvg-name="Festival de San Sebastián (RTVE)" quality="HD",Festival de San Sebastián (RTVE) · HD
 https://rtvelivestream.rtve.es/eventual/gofast/playm21_main.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-parlamento-5a7a29ae.png" group-title="Event Channels" tvg-name="Canal Parlamento" quality="SD",Canal Parlamento · SD
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
@@ -953,6 +953,10 @@ https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/pl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://hch.tv/hch-en-vivo/
 https://stream.hch.hn/live/streams/stream1.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-6-honduras-52c5c29b.png" group-title="International · Americas" tvg-name="Canal 6 Honduras",Canal 6 Honduras
+https://video.dataserv.cc:3910/live/canal6honduraslive.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-11-honduras-84050d28.png" group-title="International · Americas" tvg-name="Canal 11 Honduras" quality="FHD",Canal 11 Honduras · FHD
+https://redirector.rudo.video/hls-video/c54ac2799874375c81c1672abb700870537c5223/canal11hn/canal11hn.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/wtv-nicaragua-b27befb4.jpg" group-title="International · Americas" tvg-name="WTV Nicaragua" quality="HD",WTV Nicaragua · HD
 https://cloudvideo.servers10.com:8081/8130/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telediario-costa-rica-4c306e99.png" group-title="International · Americas" tvg-name="TeleDiario Costa Rica" quality="HD",TeleDiario Costa Rica · HD
@@ -1157,7 +1161,9 @@ https://m2b2.worldcast.tv:7443/dancetelevisionfour/2/dancetelevisionfour.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia" quality="FHD",Dance TV Estonia · FHD
 https://m2b2.worldcast.tv:7443/dancetelevisionfive/2/dancetelevisionfive.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia" quality="FHD",Dance TV Estonia · FHD
-https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8
+https://mbit1.worldcast.tv:9443/dancetelevisionsix/multibit.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia" quality="FHD",Dance TV Estonia · FHD
+https://mbit1.worldcast.tv:9443/dancetelevisionseven/multibit.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia" quality="FHD",Dance TV Estonia · FHD
 https://mbit1.worldcast.tv:9443/dancetelevisioneight/multibit.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia" quality="FHD",Dance TV Estonia · FHD
@@ -1166,8 +1172,6 @@ https://mbit1.worldcast.tv:9443/dancetelevisionnine/multibit.m3u8
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia",Dance TV Estonia
 https://m1b2.worldcast.tv/dancetelevisiontwo/2/dancetelevisiontwo.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dance-tv-estonia-5485c63d.jpg" group-title="Music" tvg-name="Dance TV Estonia",Dance TV Estonia
-https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/v2beat-tv-609fef17.png" group-title="Music" tvg-name="V2Beat TV" quality="HD",V2Beat TV EN · HD
 https://abr.de1se01.v2beat.live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ecclesia-cope-espana-ee25bd79.png" group-title="Religious" tvg-name="Ecclesia COPE España" quality="FHD",Ecclesia COPE España · FHD
