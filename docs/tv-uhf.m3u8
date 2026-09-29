@@ -882,7 +882,7 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/america-teve-usa-084752f9.jpg" group-title="International · Americas" tvg-name="America TeVe USA" quality="FHD",America TeVe USA · FHD
 https://live.gideo.video/americateve2/master.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tv-florida-usa-5719c624.png" group-title="International · Americas" tvg-name="TV Florida USA" quality="HD",TV Florida USA · HD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tv-florida-usa-5719c624.png" group-title="International · Americas" tvg-name="TV Florida USA" quality="HD",TV Florida USA PT · HD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16147&live=1&avod=0&hls_marker=1&pod_duration=120&ssai_enabled=1&content_network=streamingconnect&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&app_domain=mirametv.live&content_cat=IAB1&content_channel=tvflorida&content_genre=tv_broadcaster&content_rating=TV-G&content_id=mirametv_live&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&min_ad_duration=6&max_ad_duration=120&ifa_type=[IFA_TYPE]
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-6-multimedios-mexico-ed6bc5f5.png" group-title="International · Americas" tvg-name="Canal 6 Multimedios México" quality="HD",Canal 6 Multimedios México · HD
 https://mdstrm.com/live-stream-playlist/57b4dbf5dbbfc8f16bb63ce1.m3u8
@@ -902,7 +902,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellanews-es
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00567-estrellamedia-estrellagames-estrellamedia/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tele-10-nayarit-mexico-c051a4ac.jpg" group-title="International · Americas" tvg-name="TELE 10 Nayarit México",TELE 10 Nayarit México
 https://live.iplanay.gob.mx/hls/nayarittv.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/noticias-rcn-baa470af.png" group-title="International · Americas" tvg-name="Noticias RCN" quality="FHD",Noticias RCN · FHD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/noticias-rcn-colombia-d524944f.png" group-title="International · Americas" tvg-name="Noticias RCN Colombia" quality="FHD",Noticias RCN Colombia · FHD
 https://aka-live1050.delivery.roku.com/63a55317-8cde-4c4a-9a5f-3e6a97ae7c9e/t2-origin/out/v1/live.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleantioquia-colombia-ee531fc1.png" group-title="International · Americas" tvg-name="Teleantioquia Colombia",Teleantioquia Colombia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
@@ -910,9 +910,9 @@ https://aka-live1050.delivery.roku.com/63a55317-8cde-4c4a-9a5f-3e6a97ae7c9e/t2-o
 https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist_DVR.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/senal-colombia-39761a97.png" group-title="International · Americas" tvg-name="Señal Colombia",Señal Colombia
 https://streaming.rtvc.gov.co/TV_Senal_Colombia_live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telepacifico-colombia-19e9388b.png" group-title="International · Americas" tvg-name="Telepacifico Colombia",Telepacifico Colombia
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telepacifico-colombia-789b7e52.png" group-title="International · Americas" tvg-name="Telepacífico Colombia",Telepacífico Colombia
 https://live-edge-par-1.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/live-telepacifico/index.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telepacifico-colombia-19e9388b.png" group-title="International · Americas" tvg-name="Telepacifico Colombia",Telepacifico Colombia
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telepacifico-colombia-789b7e52.png" group-title="International · Americas" tvg-name="Telepacífico Colombia",Telepacífico Colombia
 https://live-edge-par-1.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC022/live-origen/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-telecaribe-colombia-94bb3506.png" group-title="International · Americas" tvg-name="Canal Telecaribe Colombia",Canal Telecaribe Colombia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
@@ -938,7 +938,7 @@ https://redirector.rudo.video/hls-video/plus226/latina2/latina2.smil/playlist.m3
 https://videoserver.tmcreativos.com:19360/tvcosmos/tvcosmos.m3u8
 #EXTINF:-1 tvg-id="TeleSUR.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telesur-tv-90e67b75.png" group-title="International · Americas" tvg-name="TeleSUR Venezuela" quality="FHD",TeleSUR Venezuela · FHD
 https://mblesmain01.telesur.ultrabase.net/mbliveMain/hd/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/globovision-venezuela-c2a90683.png" group-title="International · Americas" tvg-name="Globovision Venezuela" quality="HD",Globovision Venezuela · HD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/globovision-venezuela-a15168f8.png" group-title="International · Americas" tvg-name="Globovisión Venezuela" quality="HD",Globovisión Venezuela · HD
 https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ecuador-tv-ecuador-673060e3.jpg" group-title="International · Americas" tvg-name="Ecuador TV Ecuador",Ecuador TV Ecuador
 https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8
@@ -1033,7 +1033,7 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_i
 https://8f4cbe9fa8d44aa3bfd4283527a9effd.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast_gold/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-latino-db0888fe.png" group-title="International · Other" tvg-name="Miami TV Latino" quality="FHD",Miami TV Latino · FHD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16285&live=1&avod=0&hls_marker=1&pod_duration=120&position=preroll&app_bundle=com.streamingconnect.viva&app_category=linear_tv&content_cat=IAB8&content_channel=cocinafamiliar&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&ssai_enabled=1&content_id=mirametv_live&min_ad_duration=6&max_ad_duration=120&app_domain=mirametv.live&ua=[%25UA%25]&device_type=[DEVICE_TYPE]&min_ad_duration=6&max_ad_duration=120&ip=[IP]
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-jenny-live-5fb3eac3.jpg" group-title="International · Other" tvg-name="Miami TV Jenny Live" quality="FHD",Miami TV Jenny Live · FHD
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/miami-tv-jenny-live-5fb3eac3.jpg" group-title="International · Other" tvg-name="Miami TV Jenny Live" quality="HD",Miami TV Jenny Live · HD
 https://bdc8100df748400cabc7e133824c8ceb.mediatailor.us-east-2.amazonaws.com/v1/master/c3d3fd1c31fa281b88eab2cd253e2ca576b6628b/fast-jennylive/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/agrotendencia-1409bd89.png" group-title="International · Other" tvg-name="Agrotendencia" quality="FHD",Agrotendencia · FHD
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16427&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&ssai_enabled=1&content_channel=mirametv&app_domain=mirametv.live&app_category=linear_tv&content_cat=IAB1&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&gdpr=[GDPR]&content_id=mirametv_live&device_type=[DEVICE_TYPE]&ip=[IP]&min_ad_duration=6&max_ad_duration=120&ua=[UA]
@@ -1055,7 +1055,7 @@ https://stream1.sersat.com/hls/garagetv.m3u8
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/int-table-soccer-federation-7f046944.png" group-title="International Sports" tvg-name="Int. Table Soccer Federation",Int. Table Soccer Federation
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=7333
-#EXTINF:-1 tvg-id="RNE_Radio3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rne-radio3-tv-20d5c037.webp" group-title="Music" tvg-name="Radio 3" quality="HD",Radio 3 · HD
+#EXTINF:-1 tvg-id="RNE_Radio3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rne-radio3-tv-20d5c037.webp" group-title="Music" tvg-name="Radio 3 España" quality="HD",Radio 3 España · HD
 https://ztnr.rtve.es/ztnr/6982918.m3u8
 #EXTINF:-1 tvg-id="SolMusica.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/solmusica-tv-0e627f05.png" group-title="Music" tvg-name="Sol Música España" quality="HD",Sol Música España · HD
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
