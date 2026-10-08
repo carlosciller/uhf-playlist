@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T11:49:22.183776+00:00",
+  "generated_at": "2026-10-08T12:04:03.380116+00:00",
   "source_playlist": "tv-uhf.m3u8",
   "audit_generated_at": "2026-09-27T05:37:06.781045+00:00",
   "location_label": "Thailand",
@@ -10,8 +10,8 @@
   "unique_channels": 329,
   "quality_profiles": {
     "UHD": 1,
-    "FHD": 156,
-    "HD": 109,
+    "FHD": 157,
+    "HD": 108,
     "SD": 8,
     "unknown": 118
   }
