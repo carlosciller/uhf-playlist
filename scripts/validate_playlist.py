@@ -9,6 +9,7 @@ import urllib.parse
 from pathlib import Path
 
 
+
 ROOT = Path(__file__).resolve().parents[1]
 PLAYLIST_PATH = ROOT / "docs" / "tv-uhf.m3u8"
 STATUS_PATH = ROOT / "docs" / "status.json"
@@ -54,7 +55,9 @@ def validate_overseas_playlist() -> tuple[int, int]:
             continue
         if not pending_channel:
             fail(f"orphan overseas stream URL at line {line_number}")
-        if not bool(tested_streams.get(line, {}).get("reachable")):
+        if not bool(
+            tested_streams.get(line, {}).get("reachable")
+        ):
             fail(f"untested or unreachable overseas stream at line {line_number}")
         stream_count += 1
         pending_channel = False
@@ -82,8 +85,6 @@ def main() -> None:
     logo_urls: set[str] = set()
     quality_counts = {"UHD": 0, "FHD": 0, "HD": 0, "SD": 0, "unknown": 0}
     quality_heights = {"UHD": 2160, "FHD": 1080, "HD": 720, "SD": 576}
-    previous_group: tuple[str, str, str] | None = None
-    previous_height = 0
     for line_number, line in enumerate(lines[1:], start=2):
         if not line:
             continue
@@ -94,21 +95,16 @@ def main() -> None:
             pending_channel = True
             attrs = dict(ATTRIBUTE_RE.findall(line))
             display_name = line.rsplit(",", 1)[-1].strip()
-            channel_keys.add(attrs.get("tvg-id") or attrs.get("tvg-name") or display_name)
+            key = attrs.get("tvg-id") or attrs.get("tvg-name") or display_name
+            if key in channel_keys:
+                fail(f"duplicate channel source at line {line_number}")
+            channel_keys.add(key)
             quality = attrs.get("quality", "")
             if quality and quality not in quality_heights:
                 fail(f"unknown quality label at line {line_number}: {quality}")
             quality_counts[quality or "unknown"] += 1
-            height = quality_heights.get(quality, 0)
-            group = (
-                attrs.get("group-title", ""),
-                attrs.get("tvg-id", ""),
-                attrs.get("tvg-name", display_name),
-            )
-            if group == previous_group and height > previous_height:
-                fail(f"higher-quality alternative is not first at line {line_number}")
-            previous_group = group
-            previous_height = height
+            if quality:
+                fail(f"quality priority metadata remains at line {line_number}")
             logo_url = attrs.get("tvg-logo")
             if logo_url:
                 if not logo_url.startswith(LOGO_PREFIX):
@@ -129,6 +125,15 @@ def main() -> None:
 
     if pending_channel:
         fail("last channel has no stream URL")
+
+    evidence = json.loads((ROOT / "docs" / "reliability.json").read_text(encoding="utf-8"))
+    urls = [line for line in lines if line and not line.startswith("#")]
+    if urls != evidence.get("selected_urls"):
+        fail("playlist sources do not match reliability evidence")
+    for url in urls:
+        result = evidence.get("streams", {}).get(url, {})
+        if not result.get("reachable") or not result.get("second_check", {}).get("reachable"):
+            fail("source did not pass both media checks")
 
     status = json.loads(STATUS_PATH.read_text(encoding="utf-8"))
     extras = json.loads((ROOT / "extra_channels.json").read_text(encoding="utf-8"))
