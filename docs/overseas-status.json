@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-13T12:45:15.218826+00:00",
+  "generated_at": "2026-10-14T10:16:47.220441+00:00",
   "source_playlist": "tv-uhf.m3u8",
   "audit_generated_at": "2026-09-27T05:37:06.781045+00:00",
   "location_label": "Thailand",
   "media_segment_tested": true,
-  "source_streams": 346,
-  "included_streams": 307,
+  "source_streams": 344,
+  "included_streams": 305,
   "excluded_streams": 39,
-  "unique_channels": 307,
+  "unique_channels": 305,
   "quality_profiles": {
     "UHD": 0,
     "FHD": 0,
     "HD": 0,
     "SD": 0,
-    "unknown": 307
+    "unknown": 305
   }
 }
