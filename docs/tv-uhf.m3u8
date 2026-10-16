@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://www.tdtchannels.com/epg/TV.xml.gz"
+#EXTINF:-1 tvg-id="La2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/la2-tv-ee55afd6.png" group-title="General" tvg-name="La 2",La 2
+https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
 #EXTINF:-1 tvg-id="ElToroTV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/eltorotv-tv-ccb64f8f.png" group-title="General" tvg-name="El Toro TV",El Toro TV
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/13-tv-e1f6008c.webp" group-title="General" tvg-name="TRECE",TRECE
@@ -88,6 +90,8 @@ https://s.emisoras.tv:8081/sierradecadiz/index.m3u8
 https://s.emisoras.tv:8081/chiclana/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/8tv-la-janda-2d91bcc1.png" group-title="Andalusia" tvg-name="8TV La Janda",8TV La Janda
 https://s.emisoras.tv:8081/lajanda/index.m3u8
+#EXTINF:-1 tvg-id="TuyaLaJanda.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tuyalajanda-tv-46f5f7e4.png" group-title="Andalusia" tvg-name="Tuya La Janda TV",Tuya La Janda TV
+https://nimble.tuyapro.es/app/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="OndaAlgeciras.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ondaalgeciras-tv-dcbadcba.png" group-title="Andalusia" tvg-name="Onda Algeciras TV",Onda Algeciras TV
 https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/andalucia-cocina-7f67cc6a.jpg" group-title="Andalusia" tvg-name="Andalucía Cocina",Andalucía Cocina
@@ -152,6 +156,8 @@ https://cdnlivevlc.codev8.net/aytosanroquelive/smil:channel1.smil/playlist.m3u8
 https://cdnlivevlc.codev8.net/canaltorremolinoslive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tg7-0618a6fa.png" group-title="Andalusia" tvg-name="TG7",TG7
 https://flu-01.hucame.es/TG7/index.fmp4.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/sal-tv-f6dbbe32.jpg" group-title="Andalusia" tvg-name="Sal TV",Sal TV
+https://nimble.tuyapro.es/saltv/tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/manilva-tv-b07de0c5.png" group-title="Andalusia" tvg-name="Manilva TV",Manilva TV
 #EXTVLCOPT:http-referrer=https://player.castr.com/
 https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/tracks-v1a1/mono.m3u8
@@ -180,6 +186,8 @@ https://cloudvideo.servers10.com:8081/8032/index.m3u8
 https://stream1.parlamentodeandalucia.es/realizacion1/realizacion1/playlist.m3u8
 #EXTINF:-1 tvg-id="Canarias.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canarias-tv-cd66fdba.jpg" group-title="Canary Islands" tvg-name="TV Canaria (RTVC)",TV Canaria (RTVC)
 https://d1oyt3v08gcy18.cloudfront.net/index-events.m3u8
+#EXTINF:-1 tvg-id="La2_CAN.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/la2-can-tv-d1e91d02.png" group-title="Canary Islands" tvg-name="La 2 Canarias",La 2 Canarias
+https://rtvelivestream.rtve.es/rtvesec/can/la2_can_main_dvr.m3u8
 #EXTINF:-1 tvg-id="24H_CAN.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/24h-can-tv-5cde0b03.jpg" group-title="Canary Islands" tvg-name="24h Canarias",24h Canarias
 https://ztnr.rtve.es/ztnr/5473142.m3u8
 #EXTINF:-1 tvg-id="Canal4_Tenerife.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal4-tenerife-tv-c2212ed4.png" group-title="Canary Islands" tvg-name="Canal 4 Tenerife",Canal 4 Tenerife
@@ -216,6 +224,8 @@ https://streamlov.alsolnet.com/jarbhouse/live/playlist.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12689&live=1
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/alcarria-tv-79883c5e.png" group-title="Castilla-La Mancha" tvg-name="Alcarria TV",Alcarria TV
 https://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
+#EXTINF:-1 tvg-id="Imas.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/imas-tv-37aac369.png" group-title="Castilla-La Mancha" tvg-name="Imás TV",Imás TV
+https://secure3.todostreaming.es/live/imastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-4-mancha-8951dd77.jpg" group-title="Castilla-La Mancha" tvg-name="Canal 4 Mancha",Canal 4 Mancha
 https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-2000-38a04058.png" group-title="Castilla-La Mancha" tvg-name="Canal 2000",Canal 2000
@@ -247,7 +257,7 @@ https://ingest2-video.streaming-pro.com/canalterrassa/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Xarxa_LleidaTV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/xarxa-lleidatv-tv-35f8a148.png" group-title="Catalonia" tvg-name="Lleida TV",Lleida TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
-https://liveingesta118.cdnmedia.tv/lleidatvlive/smil:lleidatvocasional.smil/playlist.m3u8?DVR
+https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="Xarxa_TV_Costa_Brava.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/xarxa-tv-costa-brava-tv-b6ea36e8.png" group-title="Catalonia" tvg-name="TV Costa Brava",TV Costa Brava
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
@@ -302,8 +312,6 @@ https://limited44.todostreaming.es/live/dejatedeh-livestream.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=16818&live=1&avod=1&cb=[CACHEBUSTER]&site_page=https%3A%2F%2Ftdtchannels.com&site_name=tdtchannels&hls_marker=1&content_cat=IAB1&content_genre=Entertainment&content_id=Estutele&content_language=es&content_rating=TV-G&content_title=Estutele&coppa=0&ssai_enabled=1
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/iprotv-7b803853.png" group-title="Community of Madrid" tvg-name="iPROtv",iPROtv
 https://59ec5453559f0.streamlock.net/iprotv/iprotv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/lira-tv-e952785b.png" group-title="Community of Madrid" tvg-name="LIRA TV",LIRA TV
-https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/xaloa-telebista-25dd2337.png" group-title="Navarre" tvg-name="Xaloa Telebista",Xaloa Telebista
 https://streaming.mediacast.pro/live/xaloa/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/parlamento-de-navarra-be5e3d15.png" group-title="Navarre" tvg-name="Parlamento de Navarra",Parlamento de Navarra
@@ -336,8 +344,6 @@ https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 https://videos.canal56.com/directe/stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tele-safor-14c008d7.png" group-title="Valencian Community" tvg-name="Tele Safor",Tele Safor
 https://video.telesafor.com/hls/video.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/univers-tv-ae2b3baf.png" group-title="Valencian Community" tvg-name="Univers TV",Univers TV
-https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tv-almassora-04757c7f.png" group-title="Valencian Community" tvg-name="TV Almassora",TV Almassora
 https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8
 #EXTINF:-1 tvg-id="Punt3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/punt3-tv-341a85e4.png" group-title="Valencian Community" tvg-name="Punt 3 Vall Uixó",Punt 3 Vall Uixó
@@ -384,6 +390,8 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_i
 https://laregionlive.flumotion.cloud/laregionlive/smil:channel1.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/anove-tv-51f83930.png" group-title="Galicia" tvg-name="Anove TV",Anove TV
 https://cloud.streamingconnect.tv/hls/anove/anove.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/xunta-de-galicia-3bbd889d.png" group-title="Galicia" tvg-name="Xunta de Galicia",Xunta de Galicia
+https://xuntalive.akamaized.net/hls/live/2032287/streamxunta/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tef-f3afdddf.png" group-title="Balearic Islands" tvg-name="TEF",TEF
 https://tef.servertv.online:3268/live/teflive.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-4-tv-mallorca-42491eed.png" group-title="Balearic Islands" tvg-name="Canal 4 TV Mallorca",Canal 4 TV Mallorca
@@ -428,8 +436,6 @@ https://wmserver.jgpa.es/live/_definst_/livestream2/playlist.m3u8
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12690&live=1
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/arabi-tv-5e7381f0.png" group-title="Region of Murcia" tvg-name="Arabí TV",Arabí TV
 https://streamtv2.elitecomunicacion.cloud:3628/live/arabitv2025live.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/consejo-de-gobierno-de-la-region-de-murcia-e9a8cf76.png" group-title="Region of Murcia" tvg-name="Consejo de Gobierno de la Región de Murcia",Consejo de Gobierno de la Región de Murcia
-https://crmlive.redctnet.es/liveedge/ConsejoGob/playlist.m3u8
 #EXTINF:-1 tvg-id="TVE_STAR.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tve-star-tv-dbb67371.png" group-title="International · Europe" tvg-name="Star TVE Europa",Star TVE Europa
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8
 #EXTINF:-1 tvg-id="TVC.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvc-tv-4f8570f3.png" group-title="International · Europe" tvg-name="TV3 CAT",TV3 CAT
@@ -546,6 +552,9 @@ https://59d39900ebfb8.streamlock.net/globo-720p/globo-720p/playlist.m3u8
 https://video-eu1.streamerr.co/hls/s64029a8fdf/live.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/oromar-tv-ecuador-94729ebb.png" group-title="International · Americas" tvg-name="Oromar TV Ecuador",Oromar TV Ecuador
 https://stream.oromar.tv/hls/oromartv_hi/index.m3u8
+#EXTINF:-1 tvg-id="Cubavision.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/cubavision-tv-d45c6088.png" group-title="International · Americas" tvg-name="Cubavisión TV Cuba",Cubavisión TV Cuba
+#EXTVLCOPT:http-referrer=https://teveo.cu/live/video/AKDdWvMTYzfsfnNJ/embed?auto=true
+https://cdn.teveo.cu/live/video/A36pWmuWvZBQskuZ/ngrp:gppfydfzpSUn9Udy.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/hch-honduras-33bb04d0.jpg" group-title="International · Americas" tvg-name="HCH Honduras",HCH Honduras
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 CrKey/1.44.191160
 #EXTVLCOPT:http-referrer=https://hch.tv/hch-en-vivo/
@@ -634,8 +643,8 @@ https://ventdelnord.tv:8080/mola/directe.m3u8
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/spektra-tv-espana-a2b20ef0.png" group-title="Music" tvg-name="Spektra TV España",Spektra TV España
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Music" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile HD
-https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Music" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile SD
+https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=TDTCh4nnelsES
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/conexion-berazategui-argentina-cae527c5.png" group-title="Music" tvg-name="Conexión Berazategui Argentina",Conexión Berazategui Argentina
 https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-italia-tv-91395941.png" group-title="Music" tvg-name="Radio Italia TV",Radio Italia TV IT
@@ -666,8 +675,6 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/p
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/70-80-s-italia-76093940.jpg" group-title="Music" tvg-name="70-80's Italia",70-80's Italia IT
 https://585b674743bbb.streamlock.net/9050/9050/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/on-tv-portugal-5078d6ce.png" group-title="Music" tvg-name="On TV Portugal",On TV Portugal
-https://5ce9406b73c33.streamlock.net/ONFM/livestream/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/kronehit-austria-3a667e3e.png" group-title="Music" tvg-name="Kronehit Austria",Kronehit Austria
 https://bitcdn-kronehit.bitmovin.com/v2/hls/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/qmusic-paises-bajos-9a3c0cb0.png" group-title="Music" tvg-name="QMusic Países Bajos",QMusic Países Bajos NL
