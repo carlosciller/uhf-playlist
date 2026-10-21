@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-20T10:07:20.803682+00:00",
+  "generated_at": "2026-10-21T10:12:42.861741+00:00",
   "source": "https://www.tdtchannels.com/lists/tv.m3u8",
   "epg": "https://www.tdtchannels.com/epg/TV.xml.gz",
-  "channels": 348,
-  "source_channels": 348,
+  "channels": 350,
+  "source_channels": 350,
   "curated_extra_channels": 0,
   "curated_uhd_channels": 0,
   "curated_hdr_channels": 0,
@@ -12,25 +12,25 @@
     "FHD": 0,
     "HD": 0,
     "SD": 0,
-    "unknown": 348
+    "unknown": 350
   },
   "quality_cache_entries": 0,
   "freshly_probed_streams": 0,
   "quality_prioritized_groups": 0,
-  "unique_channels": 348,
-  "self_hosted_logos": 347,
+  "unique_channels": 350,
+  "self_hosted_logos": 349,
   "uncached_logos": 1,
   "logo_coverage_percent": 99.7,
   "uncached_channel_ids": [
     "EXN24 (Extremadura Noticias)"
   ],
   "logo_source_breakdown": {
-    "cache": 339,
+    "cache": 348,
     "override": 0,
-    "iptv-org": 2,
+    "iptv-org": 0,
     "tv-logos": 0,
     "source": 0,
-    "favicon": 6,
+    "favicon": 1,
     "failed": 1
   },
   "iptv_org_catalog_error": null,
