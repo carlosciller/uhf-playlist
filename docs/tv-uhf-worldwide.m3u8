@@ -80,12 +80,6 @@ https://nimble.tuyapro.es/app/tv/playlist.m3u8
 https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/andalucia-cocina-7f67cc6a.jpg" group-title="Andalusia" tvg-name="Andalucía Cocina",Andalucía Cocina
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
-#EXTINF:-1 tvg-id="Teleonuba.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleonuba-tv-b197a328.png" group-title="Andalusia" tvg-name="Teleonuba",Teleonuba
-https://5f71743aa95e4.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalCosta.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canalcosta-tv-28a83bb6.png" group-title="Andalusia" tvg-name="CanalCosta",CanalCosta
-https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
-#EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/condavision-tv-eae24baf.png" group-title="Andalusia" tvg-name="Condavisión",Condavisión
-https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="MarbellaTV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/marbellatv-tv-64efabfb.png" group-title="Andalusia" tvg-name="Marbella TV",Marbella TV
 https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/m95-marbella-f1f70e9a.png" group-title="Andalusia" tvg-name="M95 Marbella",M95 Marbella
@@ -216,8 +210,6 @@ https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleganes-1c68f22c.png" group-title="Community of Madrid" tvg-name="Teleganés",Teleganés
 https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
-#EXTINF:-1 tvg-id="Distrito.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/distrito-tv-db2df2a8.png" group-title="Community of Madrid" tvg-name="Distrito TV",Distrito TV
-https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
 #EXTINF:-1 tvg-id="Dejate.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dejate-tv-a7a2ab18.png" group-title="Community of Madrid" tvg-name="Déjate de Historias TV",Déjate de Historias TV
 https://limited44.todostreaming.es/live/dejatedeh-livestream.m3u8
 #EXTINF:-1 tvg-id="EsTuTele.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/estutele-tv-766024b0.png" group-title="Community of Madrid" tvg-name="EsTuTele",EsTuTele
@@ -296,8 +288,6 @@ https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/
 https://crtvg-events1.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvg-mira-radio-galega-62052fa0.png" group-title="Galicia" tvg-name="TVG Mira Radio Galega",TVG Mira Radio Galega
 https://crtvg-mirarg-schlive.flumotion.cloud/crtvglive/smil:channel1PRG.smil/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvg-universo-castelao-07a87f70.png" group-title="Galicia" tvg-name="TVG Universo Castelao",TVG Universo Castelao
-https://crtvg-universo-castelao-schlive.flumotion.cloud/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleVigo.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/televigo-tv-8a387a6a.png" group-title="Galicia" tvg-name="TeleVigo",TeleVigo
 https://stream-us-east-1.getpublica.com/playlist.m3u8?cb=[CACHEBUSTER]&network_id=16113&live=1&avod=0&hls_marker=1&position=preroll&pod_duration=120&app_bundle=com.streamingconnect.viva&app_domain=mirametv.live&app_category=linear_tv&ssai_enabled=1&content_cat=IAB1&content_channel=televigo&content_genre=tv_broadcaster&content_network=streamingconnect&content_rating=TV-G&us_privacy=[US_PRIVACY]&gdpr=[GDPR]&ifa_type=[IFA_TYPE]&min_ad_duration=6&max_ad_duration=120&content_id=[CONTENT_ID]
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/telemino-c1b6bdc3.png" group-title="Galicia" tvg-name="Telemiño",Telemiño
@@ -478,6 +468,8 @@ https://globallive.tdm.com.mo/ch2/ch2.live/playlist.m3u8
 https://cdn.live.easybroadcast.io/abr_corp/83_medi1tv-arabic_g90v4ec/playlist_dvr.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvge-1-guinea-ecuatorial-442c9964.jpg" group-title="International · Africa" tvg-name="TVGE 1 Guinea Ecuatorial",TVGE 1 Guinea Ecuatorial
 https://rpn.bozztv.com/ses/tvge/tvge.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rasd-tv-ae99faec.png" group-title="International · Africa" tvg-name="RASD TV",RASD TV
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=12830&live=1
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/abc-news-australia-71857161.png" group-title="International · Other" tvg-name="ABC News Australia",ABC News Australia EN
 https://abc-news-dmd-streams-1.akamaized.net/out/v1/abc83881886746b0802dc3e7ca2bc792/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/bloomberg-originals-f92e9797.png" group-title="International · Other" tvg-name="Bloomberg Originals",Bloomberg Originals EN
@@ -520,6 +512,8 @@ https://streamtv.mediasector.es/hls/activatv/index.m3u8
 https://ventdelnord.tv:8080/mola/directe.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/cadena-elite-espana-87407a33.png" group-title="Music" tvg-name="Cadena Elite España",Cadena Elite España
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/spektra-tv-espana-a2b20ef0.png" group-title="Music" tvg-name="Spektra TV España",Spektra TV España
+https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/conexion-berazategui-argentina-cae527c5.png" group-title="Music" tvg-name="Conexión Berazategui Argentina",Conexión Berazategui Argentina
 https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-italia-tv-91395941.png" group-title="Music" tvg-name="Radio Italia TV",Radio Italia TV IT
@@ -584,6 +578,8 @@ https://copaco.desdeparaguay.net/venusmedia/venusmedia_alt/playlist.m3u8
 https://server80.servistreaming.com:3477/stream/play.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/portal-foxmix-chile-c66058a2.jpg" group-title="Music" tvg-name="Portal Foxmix Chile",Portal Foxmix Chile
 https://panel.tvstream.cl:1936/8040/8040/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/30a-music-usa-99822d4a.png" group-title="Music" tvg-name="30A Music USA",30A Music USA EN
+https://30a-tv.com/feeds/ceftech/30atvmusic.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/spirit-tv-usa-61895438.png" group-title="Music" tvg-name="Spirit TV USA",Spirit TV USA EN
 https://cdnlive.myspirit.tv/LS-ATL-43240-2/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radiou-tv-usa-42a66873.jpg" group-title="Music" tvg-name="RadioU TV USA",RadioU TV USA EN
