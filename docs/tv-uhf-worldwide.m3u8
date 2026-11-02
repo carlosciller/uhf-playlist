@@ -80,6 +80,12 @@ https://nimble.tuyapro.es/app/tv/playlist.m3u8
 https://cloudtv.provideo.es/live/algecirastv-livestream.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/andalucia-cocina-7f67cc6a.jpg" group-title="Andalusia" tvg-name="Andalucía Cocina",Andalucía Cocina
 https://cloud.fastchannel.es/mic/manifiest/hls/acocina/acocina.m3u8
+#EXTINF:-1 tvg-id="Teleonuba.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleonuba-tv-b197a328.png" group-title="Andalusia" tvg-name="Teleonuba",Teleonuba
+https://5f71743aa95e4.streamlock.net:1936/Teleonuba/endirecto/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalCosta.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canalcosta-tv-28a83bb6.png" group-title="Andalusia" tvg-name="CanalCosta",CanalCosta
+https://5f71743aa95e4.streamlock.net:1936/CanalcostaTV/endirecto/playlist.m3u8
+#EXTINF:-1 tvg-id="Condavision.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/condavision-tv-eae24baf.png" group-title="Andalusia" tvg-name="Condavisión",Condavisión
+https://5f71743aa95e4.streamlock.net:1936/Condavision/endirecto/playlist.m3u8
 #EXTINF:-1 tvg-id="MarbellaTV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/marbellatv-tv-64efabfb.png" group-title="Andalusia" tvg-name="Marbella TV",Marbella TV
 https://streaming.rtvmarbella.tv/hls/streamingweb.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/m95-marbella-f1f70e9a.png" group-title="Andalusia" tvg-name="M95 Marbella",M95 Marbella
@@ -146,6 +152,8 @@ https://5c0956165db0b.streamlock.net:8090/directo/_definst_/lancelot.television/
 https://tv.mediacp.eu/hls/ahoratv/ahoratv.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtv-mogan-80270426.png" group-title="Canary Islands" tvg-name="RTV Mogán",RTV Mogán
 https://cloudvideo.servers10.com:8081/8028/index.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/factoria-de-carnaval-5948dff1.png" group-title="Canary Islands" tvg-name="Factoría de Carnaval",Factoría de Carnaval
+https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-calima-tv-0204dc96.png" group-title="Canary Islands" tvg-name="Radio Calima TV",Radio Calima TV
 https://nrvideo1.newradio.it:443/calimafm/calimafm/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/afortunadas-tv-c7f40361.png" group-title="Canary Islands" tvg-name="Afortunadas TV",Afortunadas TV
@@ -210,6 +218,8 @@ https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 https://5d776b1861da1.streamlock.net/piera/smil:piera.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleganes-1c68f22c.png" group-title="Community of Madrid" tvg-name="Teleganés",Teleganés
 https://live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
+#EXTINF:-1 tvg-id="Distrito.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/distrito-tv-db2df2a8.png" group-title="Community of Madrid" tvg-name="Distrito TV",Distrito TV
+https://live.emitstream.com/hls/3mn7wpcv7hbmxmdzaxap/master.m3u8
 #EXTINF:-1 tvg-id="Dejate.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/dejate-tv-a7a2ab18.png" group-title="Community of Madrid" tvg-name="Déjate de Historias TV",Déjate de Historias TV
 https://limited44.todostreaming.es/live/dejatedeh-livestream.m3u8
 #EXTINF:-1 tvg-id="EsTuTele.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/estutele-tv-766024b0.png" group-title="Community of Madrid" tvg-name="EsTuTele",EsTuTele
@@ -228,8 +238,6 @@ https://fastly.live.brightcove.com/1846756479408303045/eu-central-1/605795588500
 https://streaming005.gestec-video.com/hls/canal24.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/intercomarcal-tv-c6726355.png" group-title="Valencian Community" tvg-name="Intercomarcal TV",Intercomarcal TV
 https://streamingtvi.gestec-video.com/hls/tvixa.m3u8
-#EXTINF:-1 tvg-id="7Televalencia.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/7televalencia-tv-f6696cb8.jpg" group-title="Valencian Community" tvg-name="7 TeleValencia",7 TeleValencia
-https://play.cdn.enetres.net/9E9557EFCEBB43A89CEC8FBD3C500247022/028/playlist.m3u8
 #EXTINF:-1 tvg-id="8M.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/8m-tv-9acf999a.png" group-title="Valencian Community" tvg-name="La 8 Mediterráneo",La 8 Mediterráneo
 https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 #EXTINF:-1 tvg-id="TeleElx.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/teleelx-tv-e414063f.png" group-title="Valencian Community" tvg-name="TeleElx",TeleElx
@@ -252,8 +260,6 @@ https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 https://videos.canal56.com/directe/stream/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tele-safor-14c008d7.png" group-title="Valencian Community" tvg-name="Tele Safor",Tele Safor
 https://video.telesafor.com/hls/video.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/univers-tv-ae2b3baf.png" group-title="Valencian Community" tvg-name="Univers TV",Univers TV
-https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tv-almassora-04757c7f.png" group-title="Valencian Community" tvg-name="TV Almassora",TV Almassora
 https://play.turesportmedia.com/hls/abr_tvalmassora/index.m3u8
 #EXTINF:-1 tvg-id="Punt3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/punt3-tv-341a85e4.png" group-title="Valencian Community" tvg-name="Punt 3 Vall Uixó",Punt 3 Vall Uixó
