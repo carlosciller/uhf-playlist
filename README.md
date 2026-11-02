@@ -35,7 +35,7 @@ https://www.tdtchannels.com/epg/TV.xml.gz
 - Preserves adaptive HLS master playlists, allowing UHF to select the best rendition available for the connection and device.
 - Preserves the original source order and does not rank sources by resolution or add quality labels.
 - Excludes the Ottera sources that previously produced a black screen in UHF. Experimental UHD/HDR additions are disabled.
-- Publishes a separate worldwide playlist containing only streams that delivered an HLS media segment during the latest audit from outside Spain. This avoids putting geo-blocked higher-resolution alternatives ahead of working international feeds.
+- Preserves the worldwide and overseas URLs as aliases of the full catalogue, without a geographic reachability filter.
 
 ## Overseas limitations
 

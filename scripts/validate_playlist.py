@@ -165,7 +165,7 @@ def main() -> None:
     print(
         f"Validated {channel_count} streams, {len(channel_keys)} channels, "
         f"and {len(logo_urls)} self-hosted logos; overseas playlist has "
-        f"{overseas_streams} tested streams across {overseas_channels} channels."
+        f"{overseas_streams} catalogue streams across {overseas_channels} channels."
     )
 
 
