@@ -1,6 +1,6 @@
 # UHF Playlist
 
-A UHF-friendly M3U8 playlist built from TDTChannels, with self-hosted logos and one reachable source per channel.
+A UHF-friendly M3U8 playlist built from TDTChannels, with self-hosted logos and one original source per channel.
 
 ## Playlist URL
 
@@ -31,7 +31,7 @@ https://www.tdtchannels.com/epg/TV.xml.gz
 - Stores resolved logos in this repository and serves them through GitHub Pages.
 - Removes broken logo references when no reliable replacement is available.
 - Translates UHF group names into English while preserving official channel names.
-- Keeps one original source per channel after two successful manifest and media-segment checks from the build network. Unreachable channels are omitted.
+- Keeps one original source per channel without removing channels because of network checks from GitHub. Broadcaster geo restrictions on the build server do not establish availability on the viewer's device.
 - Preserves adaptive HLS master playlists, allowing UHF to select the best rendition available for the connection and device.
 - Preserves the original source order and does not rank sources by resolution or add quality labels.
 - Excludes the Ottera sources that previously produced a black screen in UHF. Experimental UHD/HDR additions are disabled.
@@ -39,7 +39,7 @@ https://www.tdtchannels.com/epg/TV.xml.gz
 
 ## Overseas limitations
 
-The worldwide playlist improves reliability; it cannot guarantee that every broadcaster permits every country forever. A stream is included only after both its manifest and a media segment have been fetched from the audited network in Thailand. Channels with no public feed available there are omitted instead of being shown as broken. The full Spain playlist remains unchanged.
+The worldwide and overseas URLs now serve the same full catalogue, preserving existing subscriptions without hiding channels based on an old geographic snapshot. Their names do not guarantee worldwide availability. Broadcasters may restrict playback by location or programme.
 
 The location snapshot is stored in `overseas_access.json`. Run `python scripts/audit_overseas.py --label Thailand` from the target network, then rebuild and validate, to refresh it.
 
@@ -47,7 +47,7 @@ The location snapshot is stored in `overseas_access.json`. Run `python scripts/a
 
 Quality prioritization and curated UHD/HDR additions have been removed. The original adaptive stream chooses its own renditions; no maximum resolution is forced.
 
-Successful HTTP media checks do not guarantee playback in UHF or access from every country. The current check evidence is published in `reliability.json`; it is refreshed during each build.
+Playback and geographic availability depend on the viewer's network. `reliability.json` records source selection only and explicitly does not claim playback validation.
 
 The TDTChannels EPG and cached channel logos are retained.
 

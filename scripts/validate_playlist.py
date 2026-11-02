@@ -34,8 +34,8 @@ def validate_overseas_playlist() -> tuple[int, int]:
     lines = OVERSEAS_PLAYLIST_PATH.read_text(encoding="utf-8").splitlines()
     if not lines or not lines[0].startswith("#EXTM3U "):
         fail("overseas playlist is missing its extended M3U header")
-    access = json.loads(OVERSEAS_ACCESS_PATH.read_text(encoding="utf-8"))
-    tested_streams = access.get("streams", {})
+    if OVERSEAS_PLAYLIST_PATH.read_bytes() != PLAYLIST_PATH.read_bytes():
+        fail("legacy URLs must preserve the full source catalogue")
     status = json.loads(OVERSEAS_STATUS_PATH.read_text(encoding="utf-8"))
     channel_keys: set[str] = set()
     stream_count = 0
@@ -55,10 +55,6 @@ def validate_overseas_playlist() -> tuple[int, int]:
             continue
         if not pending_channel:
             fail(f"orphan overseas stream URL at line {line_number}")
-        if not bool(
-            tested_streams.get(line, {}).get("reachable")
-        ):
-            fail(f"untested or unreachable overseas stream at line {line_number}")
         stream_count += 1
         pending_channel = False
     if pending_channel:
@@ -67,8 +63,8 @@ def validate_overseas_playlist() -> tuple[int, int]:
         fail("overseas status stream count does not match")
     if status.get("unique_channels") != len(channel_keys):
         fail("overseas status channel count does not match")
-    if status.get("media_segment_tested") is not True:
-        fail("overseas status does not confirm media-segment testing")
+    if status.get("media_segment_tested") is not False:
+        fail("legacy status must not claim worldwide playback validation")
     return stream_count, len(channel_keys)
 
 
@@ -130,10 +126,12 @@ def main() -> None:
     urls = [line for line in lines if line and not line.startswith("#")]
     if urls != evidence.get("selected_urls"):
         fail("playlist sources do not match reliability evidence")
-    for url in urls:
-        result = evidence.get("streams", {}).get(url, {})
-        if not result.get("reachable") or not result.get("second_check", {}).get("reachable"):
-            fail("source did not pass both media checks")
+    if evidence.get("network_tested") is not False:
+        fail("catalogue must not claim network or playback validation")
+    # These source channels previously disappeared because GitHub received HTTP 403.
+    for key in ("La1.TV", "La2.TV"):
+        if key not in channel_keys:
+            fail(f"required source channel disappeared: {key}")
 
     status = json.loads(STATUS_PATH.read_text(encoding="utf-8"))
     extras = json.loads((ROOT / "extra_channels.json").read_text(encoding="utf-8"))

@@ -52,17 +52,8 @@ def main() -> None:
     source_lines = SOURCE_PATH.read_text(encoding="utf-8").splitlines()
     if not source_lines or not source_lines[0].startswith("#EXTM3U"):
         raise SystemExit("Full playlist has no valid M3U header")
-    access = json.loads(ACCESS_PATH.read_text(encoding="utf-8"))
-    tested_streams = access.get("streams", {})
-    if not isinstance(tested_streams, dict) or not tested_streams:
-        raise SystemExit("Overseas access snapshot contains no streams")
-
     blocks = playlist_blocks(source_lines)
-    included = [
-        block
-        for block in blocks
-        if bool(tested_streams.get(stream_url(block), {}).get("reachable"))
-    ]
+    included = blocks
     if not included:
         raise SystemExit("No location-tested streams remain")
 
@@ -80,9 +71,9 @@ def main() -> None:
     status = {
         "generated_at": dt.datetime.now(dt.timezone.utc).isoformat(),
         "source_playlist": SOURCE_PATH.name,
-        "audit_generated_at": access.get("generated_at"),
-        "location_label": access.get("location_label", "Overseas"),
-        "media_segment_tested": True,
+        "audit_generated_at": None,
+        "location_label": "Unfiltered catalogue; availability depends on viewer location",
+        "media_segment_tested": False,
         "source_streams": len(blocks),
         "included_streams": len(included),
         "excluded_streams": len(blocks) - len(included),
