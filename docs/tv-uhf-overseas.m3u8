@@ -210,7 +210,7 @@ https://nimble.tuyapro.es/saltv/tv/playlist.m3u8
 https://stream.castr.com/627a72d21914543be01c1720/live_e2ae1780dc2a11eca660b7b17b7952a5/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="FuengirolaTV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/fuengirolatv-tv-7cbe09e0.png" group-title="Andalusia" tvg-name="Fuengirola TV",Fuengirola TV
 https://streaming004.gestec-video.com/hls/FTV.m3u8
-#EXTINF:-1 tvg-id="9LaLoma.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/9laloma-tv-f869001f.png" group-title="Andalusia" tvg-name="9 la Loma TV",9 la Loma TV
+#EXTINF:-1 tvg-id="9LaLoma.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/9laloma-tv-f869001f.png" group-title="Andalusia" tvg-name="9 La Loma TV",9 La Loma TV
 https://9laloma.tv/live.m3u8
 #EXTINF:-1 tvg-id="Mijas340TV.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/mijas340tv-tv-b0770d36.png" group-title="Andalusia" tvg-name="Mijas 3.40 TV",Mijas 3.40 TV
 https://streaming004.gestec-video.com/hls/MIJAS.m3u8
@@ -483,9 +483,9 @@ https://cdn-canalextremadura.watchity.net/fast1/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/semos-asina-canal-extremadura-1023e388.webp" group-title="Extremadura" tvg-name="Semos asina (Canal Extremadura)",Semos asina (Canal Extremadura)
 https://cdn-canalextremadura.watchity.net/fast3/master.m3u8
 #EXTINF:-1 tvg-id="TVGAL.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvgal-tv-c158a406.png" group-title="Galicia" tvg-name="TVG",TVG
-https://crtvg-europa.flumotion.cloud/playlist.m3u8
+https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="TVG2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvg2-tv-54a1ec98.png" group-title="Galicia" tvg-name="TVG 2",TVG 2
-https://crtvg-tvg2.flumotion.cloud/playlist.m3u8
+https://crtvg-tvg2.flumotion.cloud/playlist_dvr.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvg-xabarin-f018743c.png" group-title="Galicia" tvg-name="TVG Xabarin",TVG Xabarin
 https://crtvg-infantil-schlive.flumotion.cloud/crtvglive/smil:channel5PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvg-pequerrech-s-c478562f.png" group-title="Galicia" tvg-name="TVG Pequerrech@s",TVG Pequerrech@s
@@ -578,8 +578,6 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_dvr_1080.m3u8
 #EXTINF:-1 tvg-id="TVC.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvc-tv-4f8570f3.png" group-title="International · Europe" tvg-name="TV3 CAT",TV3 CAT GEO
 https://directes-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
-#EXTINF:-1 tvg-id="TVGA.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tvga-tv-87d92f9d.png" group-title="International · Europe" tvg-name="TVG Europa",TVG Europa
-https://crtvg-europa.flumotion.cloud/playlist_dvr.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/tv-canaria-net-c351286f.jpg" group-title="International · Europe" tvg-name="TV Canaria Net",TV Canaria Net
 https://d2q93scm3qt8zp.cloudfront.net/index-events.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/islas-canarias-tv-d7897ec7.png" group-title="International · Europe" tvg-name="Islas Canarias TV",Islas Canarias TV
@@ -622,6 +620,8 @@ https://amg01076-lightningintern-gbnews-samsunguk-0lu52.amagi.tv/playlist/amg010
 https://pubads.g.doubleclick.net/ssai/event/OQfdjUhHSDSlb1fJVzehsQ/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/trt-world-turquia-d36ff2a4.png" group-title="International · Europe" tvg-name="TRT World Turquía",TRT World Turquía EN
 https://tv-trtworld.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/trt-haber-turquia-f5616ca7.png" group-title="International · Europe" tvg-name="TRT Haber Turquía",TRT Haber Turquía
+https://tv-trthaber.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtcg-sat-montenegro-34eaa668.png" group-title="International · Europe" tvg-name="RTCG SAT Montenegro",RTCG SAT Montenegro
 https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/ruv-islandia-06cea659.png" group-title="International · Europe" tvg-name="RÚV Islandia",RÚV Islandia
@@ -636,7 +636,7 @@ https://tringliveviz.akamaized.net/delta/105/out/u/qwaszxerdfcvrtryuy.m3u8
 https://streamvideol1.luxnet.ua/news24/news24.stream/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/current-time-tv-57d390c5.png" group-title="International · Europe" tvg-name="Current Time TV",Current Time TV
 https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/fox-live-now-usa-f3e505b8.png" group-title="International · Americas" tvg-name="FOX Live Now USA",FOX Live Now USA EN
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/livenow-from-fox-usa-25432a37.png" group-title="International · Americas" tvg-name="LiveNOW from FOX USA",LiveNOW from FOX USA EN
 https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/cbs-news-usa-6ac53f22.png" group-title="International · Americas" tvg-name="CBS News USA",CBS News USA EN
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
@@ -652,7 +652,7 @@ https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://d2jiqiw4g5lj5k.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/AmericasVoiceChannel-prod/AVSamsung/AVSamsung.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/buzzr-tv-usa-ceb43e90.png" group-title="International · Americas" tvg-name="BUZZR TV USA",BUZZR TV USA EN
 https://buzzrota-ono.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/newsmax-tv-usa-aa085ea6.png" group-title="International · Americas" tvg-name="Newsmax TV USA",Newsmax TV USA EN
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/newsmax2-usa-e8c67366.png" group-title="International · Americas" tvg-name="Newsmax2 USA",Newsmax2 USA EN
 https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/america-teve-usa-084752f9.jpg" group-title="International · Americas" tvg-name="America TeVe USA",America TeVe USA
 https://live.gideo.video/americateve2/master.m3u8
@@ -739,6 +739,8 @@ https://amdlive-ch01-g-ctnd-com.akamaized.net/arirang_1gch/smil:arirang_1gch.smi
 https://live.alarabiya.net/alarabiapublish/alarabiya.smil/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/india-today-7f8c7504.png" group-title="International · Asia" tvg-name="India Today",India Today EN
 https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/aaj-tak-india-6beb9fc7.png" group-title="International · Asia" tvg-name="Aaj Tak India",Aaj Tak India
+https://feeds.intoday.in/aajtak/api/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/new-delhi-tv-24x7-india-192cc7fc.png" group-title="International · Asia" tvg-name="New Delhi TV 24x7 India",New Delhi TV 24x7 India EN
 https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/ndtv24x7master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/republic-world-tv-india-172ef09f.jpg" group-title="International · Asia" tvg-name="Republic World TV India",Republic World TV India EN
