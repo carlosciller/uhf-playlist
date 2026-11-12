@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T12:43:25.618916+00:00",
+  "checked_at": "2026-11-12T13:46:30.620654+00:00",
   "policy": "original source order, one source per channel; no quality priority or build-network reachability filter",
   "network_tested": false,
   "selected_urls": [
