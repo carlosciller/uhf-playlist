@@ -7,6 +7,12 @@ https://rtvelivestream.rtve.es/rtvesec/la2/la2_main_dvr.m3u8
 https://streaming-1.eltorotv.com/lb0/eltorotv-streaming-web/index.m3u8
 #EXTINF:-1 tvg-id="13.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/13-tv-e1f6008c.webp" group-title="General" tvg-name="TRECE",TRECE
 https://play.cdn.enetres.net/091DB7AFBD77442B9BA2F141DCC182F5021/021/playlist.m3u8
+#EXTINF:-1 tvg-id="Squirrel.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/squirrel-tv-97a9023e.png" group-title="General" tvg-name="Squirrel",Squirrel
+https://squirrel.cdn.plenitas.pro/squirrel-es/hls/master.m3u8
+#EXTINF:-1 tvg-id="Squirrel2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/squirrel2-tv-4ec92ee8.png" group-title="General" tvg-name="Squirrel2",Squirrel2
+https://squirrel.cdn.plenitas.pro/squirreldos/hls/master.m3u8
+#EXTINF:-1 tvg-id="BOM.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/bom-tv-c66b494c.webp" group-title="General" tvg-name="BOM Cine",BOM Cine
+https://squirrel.cdn.plenitas.pro/bomcine/hls/master.m3u8
 #EXTINF:-1 tvg-id="RNE.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rne-tv-07103827.png" group-title="General" tvg-name="RNE Accesible",RNE Accesible
 https://ztnr.rtve.es/ztnr/6688753.m3u8
 #EXTINF:-1 tvg-id="24Horas.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/24horas-tv-61fcf34e.png" group-title="News" tvg-name="24h",24h
@@ -38,6 +44,10 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 https://amg17560-fcb-amg17560c2-samsung-es-9803.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg17560-fcbarcelona-topbarcaspanish-samsunges/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/futsalmafer-tv-4a2371d4.png" group-title="Sports" tvg-name="Futsalmafer.tv",Futsalmafer.tv
 https://play.agenciastreaming.com:8081/futsalmafertv/index.m3u8
+#EXTINF:-1 tvg-id="Horse.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/horse-tv-5c95ecbd.png" group-title="Sports" tvg-name="Horse TV",Horse TV
+https://squirrel.cdn.plenitas.pro/hprse-es/hls/master.m3u8
+#EXTINF:-1 tvg-id="Nautical_Channel.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/nautical-channel-tv-ffc1921d.png" group-title="Sports" tvg-name="Nautical Channel",Nautical Channel
+https://squirrel.cdn.plenitas.pro/nautical-es/hls/master.m3u8
 #EXTINF:-1 tvg-id="Clan.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/clan-tv-8fdb4b1b.png" group-title="Kids" tvg-name="Clan",Clan GEO
 https://ztnr.rtve.es/ztnr/5466990.m3u8
 #EXTINF:-1 tvg-id="SX3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/sx3-tv-6a759d82.png" group-title="Kids" tvg-name="SX3",SX3 GEO CAT
@@ -72,8 +82,6 @@ https://ztnr.rtve.es/ztnr/16656232.m3u8
 https://ztnr.rtve.es/ztnr/16862827.m3u8
 #EXTINF:-1 tvg-id="RTVE_PopUp2.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup2-tv-1a0afac6.png" group-title="Event Channels" tvg-name="RTVE 70 años (RTVE)",RTVE 70 años (RTVE)
 https://ztnr.rtve.es/ztnr/17232941.m3u8
-#EXTINF:-1 tvg-id="RTVE_PopUp3.TV" tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtve-popup3-tv-bc28f0eb.png" group-title="Event Channels" tvg-name="Segunda estrella (RTVE)",Segunda estrella (RTVE)
-https://ztnr.rtve.es/ztnr/17239088.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/canal-parlamento-5a7a29ae.png" group-title="Event Channels" tvg-name="Canal Parlamento",Canal Parlamento
 https://congresodirecto.akamaized.net/hls/live/2037973/canalparlamento/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/congreso-de-los-diputados-6da5dc71.png" group-title="Event Channels" tvg-name="Congreso de los Diputados",Congreso de los Diputados
@@ -807,8 +815,6 @@ https://cloudvideo.servers10.com:8081/8004/index.m3u8
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/energeek-radio-chile-de406c8b.png" group-title="Music" tvg-name="EnerGeek Radio Chile",EnerGeek Radio Chile HD
 https://cl-2.backend.energeek.cl/bkp/egradioweb/index.m3u8?token=TDTCh4nnelsES
-#EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/conexion-berazategui-argentina-cae527c5.png" group-title="Music" tvg-name="Conexión Berazategui Argentina",Conexión Berazategui Argentina
-https://lbgo.bozztv.com/ssh101/ssh101/conexionbera/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/radio-italia-tv-91395941.png" group-title="Music" tvg-name="Radio Italia TV",Radio Italia TV IT
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
 #EXTINF:-1 tvg-logo="https://carlosciller.github.io/uhf-playlist/logos/rtl-102-5-italia-91c2c48f.png" group-title="Music" tvg-name="RTL 102.5 Italia",RTL 102.5 Italia IT
